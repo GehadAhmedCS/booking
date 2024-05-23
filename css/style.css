@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --bs-body-font-family: "DM Sans", sans-serif;
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  /* --bs-body-color: #747579; */
+  --bs-nav-a-color: #5143d9;
+}
+html{
+  overflow-x: hidden;
+}
+body,
+ul {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* .main-nav{
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: aquamarine;
+    z-index: 9999999;
+    
+} */
+
+.sub-menu {
+  width: 250px;
+  /* line-height: 200px; */
+  display: none;
+  z-index: 9999;
+  transition: all 1s;
+}
+
+.dropdown-menue a,
+.nav-content-links a {
+  white-space: nowrap;
+}
+.dropdown-menue a::after {
+  content: "\f107";
+  font-family: "Font Awesome 6 Free";
+  margin-left: 0.35rem;
+  font-weight: 900;
+  font-size: 0.8rem;
+  vertical-align: middle;
+  border: none;
+}
+
+.content-ul li:hover > .sub-menu {
+  display: block;
+}
+
+/* ////////////////////////////// */
+
+.dropdown-menue a:hover > a {
+  color: #5143d9;
+}
+/* ////////////////////////////// */
+.main-header h1 {
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 100px;
+}
+
+h1 .span2 {
+  z-index: 100;
+}
+.main-header h1 svg {
+  fill: #5143d9;
+}
+
+.fill-warning {
+  fill: yellow;
+}
+.client-ser {
+  margin-top: -1.6rem;
+  z-index: 2;
+  backdrop-filter: blur(10px);
+}
+.content-img {
+  margin-left: -25px;
+}
+
+.content-img img {
+  vertical-align: middle;
+}
+.discover-ava {
+  width: 3rem;
+  height: 3rem;
+}
+.discover .dis-a1 {
+  color: #5143d9;
+  background-color: rgba(81, 67, 217, 0.1);
+  letter-spacing: 0.5px;
+}
+.discover-ava-img {
+  width: 100%;
+  object-fit: cover;
+}
+.nav-content-links .content-ul  li a{
+  border-radius: 3px;
+  transition: all .6s ease;
+}
+.nav-content-links .content-ul  li a:hover{
+  color: #5143d9 !important;
+  background-color: bisque;
+}
+
+/* ////////////////cersoul ///////////////// */
+/*  */
+
+.offer {
+  margin: 200px 0;
+  background-color: blue;
+}
+.offer .card-body {
+  padding: 1.25rem;
+}
+.offer .card-title {
+  margin-bottom: 8px;
+}
+
+.card-img {
+  width: 100%;
+
+  display: block;
+  /* overflow:auto; */
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+/* ////////////about//////////////// */
+.me-n3 {
+  margin-right: -50px;
+}
+.mb-n5 {
+  margin-bottom: -50px;
+}
+.me-n1{
+  margin-right: -20px;
+}
+.dashed-border {
+  z-index: -1;
+}
+.star {
+  z-index: 50;
+}
+.fill-primary {
+  fill: rgba(128, 128, 128, 0.74);
+}
+.about h2,
+.features h2,
+.gallery h2 {
+  line-height: 1.25;
+  font-family: "Poppins", sans-serif;
+  margin: 10px 0;
+}
+.icon-1 {
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 1.2rem;
+  line-height: 3.5rem;
+  text-align: center;
+}
+
+/* ////////////feature////////////// */
+.features {
+  margin-top: 100px;
+}
+.scale-hover img {
+  transition: all 0.6s;
+}
+/* ///////////////////////////// */
+.scale-hover:hover img {
+  transform: translateZ(0);
+}
+/* ////////////////////////// */
+.gray-scale {
+  filter: grayscale(100%);
+  transition: all 0.5s;
+}
+.gray-scale:hover {
+  filter: none;
+}
+/* //////////testimonial///////////////// */
+.dashed-border2 {
+  z-index: -2;
+}
+.star2 {
+  width: 40px;
+
+  height: 40px;
+  z-index: 50;
+}
+/* ////////////////downloood/////////////// */
+.downlood {
+  background-color: rgba(128, 128, 128, 0.466);
+}
+.help i {
+  font-size: 4rem;
+}
+/* ///////// */
+.footer h4 {
+  letter-spacing: 3px;
+  line-height: 60px;
+}
+.cars-l img{ height: 30px;}
+
+/* //////////////// */
+
+footer  a:hover   {
+  color: #5143d9 !important;
+}
+
+/* ///////////////////////// */
+.features .feature-inner{
+  transition: all 0.5s ease;
+}
+.features .feature-inner :hover > .card-img img{
+  transform: scale(95%);
+}
+
+.features .feature-inner :hover  .card-body .card-title a{
+  color: #5143d9 !important;
+}

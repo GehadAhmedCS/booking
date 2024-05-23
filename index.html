@@ -1,0 +1,2440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>booking</title>
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav p-4">
+        <div class="container">
+          <div class="row gx-4">
+            <div class="col-md-6">
+              <div
+                class="nav-inner1 d-flex flex-nowrap justify-content-around align-items-center column-gap-4"
+              >
+                <a href="#">
+                  <img
+                    src="images/logo.svg"
+                    width="140px"
+                    alt="logo flight booking"
+                  />
+                </a>
+
+                <div class="nav-content-ul">
+                  <ul
+                    class="content-ul list-unstyled d-flex justify-content-center align-items-center column-gap-5 fs-6 text-capitalize p-3"
+                  >
+                    <li class="position-relative dropdown-menue py-3 d-block">
+                      <a class="text-decoration-none text-dark d-block" href="#"
+                        >listings
+                      </a>
+
+                      <!-- //////////////////////////////////////// -->
+                      <!-- dropdown1 -->
+                      <ul
+                        class="sub-menu position-absolute top-100 start-0 list-unstyled bg-warning rounded-3 shadow-lg"
+                      >
+                        <li class="bg-light p-2 position-relative">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >hotel
+                            <i
+                              class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                            ></i
+                          ></a>
+
+                          <!-- /////////sub menue1/////////// -->
+
+                          <ul
+                            class="sub-menu  position-absolute start-100 list-unstyled bg-warning rounded-3 shadow-lg"
+                          >
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                > Home
+                              </a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                > Chain
+                              </a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >hotel grid
+                              </a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >hotel list
+                              </a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >hotel detail</a
+                              >
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >room detail
+                              </a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >hotel booking
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <!-- //////////////////////////////// -->
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >flight
+                            <i
+                              class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                            ></i
+                          ></a>
+                          <ul
+                            class="sub-menu position-absolute start-100 list-unstyled bg-warning rounded-3 shadow-lg"
+                          >
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >Flight Home
+                              </a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >Flight List
+                              </a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >Flight Detail
+                              </a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >Flight Booking
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <!-- //////////////////////////////////// -->
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >tour
+                            <i
+                              class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                            ></i
+                          ></a>
+                        </li>
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >cap
+                            <i
+                              class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                            ></i
+                          ></a>
+                        </li>
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >directory
+                            <i
+                              class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                            ></i
+                          ></a>
+                        </li>
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >add listings
+                            <i
+                              class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                            ></i
+                          ></a>
+                        </li>
+
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >hero
+                            <i
+                              class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                            ></i
+                          ></a>
+                        </li>
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >Booking Confirmed
+                          </a>
+                        </li>
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >Compare Listing
+                          </a>
+                        </li>
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >Offer Detail
+                          </a>
+                        </li>
+                      </ul>
+
+                      <!-- ////dropdown end -->
+                    </li>
+                    <li class="position-relative dropdown-menue py-3 d-block">
+                      <a class="text-decoration-none text-dark" href=""
+                        >pages</a
+                      >
+
+                      <!-- /////////dropdown///////////////// -->
+                      <ul
+                        class="sub-menu position-absolute top-100 start-0 list-unstyled bg-warning rounded-3 shadow-lg"
+                      >
+                        <li class="bg-light p-2 position-relative">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >hotel
+                            <i
+                              class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                            ></i
+                          ></a>
+
+                          <!-- /////////sub menue/////////// -->
+
+                          <ul
+                            class="sub-menu position-absolute start-100 list-unstyled bg-warning rounded-3 shadow-lg"
+                          >
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >hotel
+                                <i
+                                  class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                                ></i
+                              ></a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >flight
+                                <i
+                                  class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                                ></i
+                              ></a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >tour
+                                <i
+                                  class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                                ></i
+                              ></a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >cap
+                                <i
+                                  class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                                ></i
+                              ></a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >directory
+                                <i
+                                  class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                                ></i
+                              ></a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >add listings
+                                <i
+                                  class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                                ></i
+                              ></a>
+                            </li>
+
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >hero
+                                <i
+                                  class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                                ></i
+                              ></a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >Booking Confirmed
+                              </a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >Compare Listing
+                              </a>
+                            </li>
+                            <li class="bg-light p-2">
+                              <a
+                                class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                                href="#"
+                                >Offer Detail
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <!-- //////////////////////////////// -->
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >flight
+                            <i
+                              class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                            ></i
+                          ></a>
+                        </li>
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >tour
+                            <i
+                              class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                            ></i
+                          ></a>
+                        </li>
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >cap
+                            <i
+                              class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                            ></i
+                          ></a>
+                        </li>
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >directory
+                            <i
+                              class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                            ></i
+                          ></a>
+                        </li>
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >add listings
+                            <i
+                              class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                            ></i
+                          ></a>
+                        </li>
+
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >hero
+                            <i
+                              class="fa-solid fa-ellipsis fs-5 float-end px-2"
+                            ></i
+                          ></a>
+                        </li>
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >Booking Confirmed
+                          </a>
+                        </li>
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >Compare Listing
+                          </a>
+                        </li>
+                        <li class="bg-light p-2">
+                          <a
+                            class="text-decoration-none text-capitalize text-secondary bg-secandry p-1 d-block rounded-3"
+                            href="#"
+                            >Offer Detail
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="position-relative dropdown-menue py-3 d-block">
+                      <a class="text-decoration-none text-dark" href=""
+                        >accounts</a
+                      >
+                    </li>
+                    <li class="position-relative py-3 d-block">
+                      <a class="text-decoration-none text-dark" href=""
+                        ><i class="fa-solid fa-ellipsis fs-5"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="nav-content-links nav-inner1 d-flex justify-content-around align-items-center column-gap-2"
+              >
+                <ul
+                  class="content-ul list-unstyled d-flex justify-content-center align-items-center column-gap-4 fs-6 text-capitalize p-3 fw-bold text-dark"
+                >
+                  <li class="text-center rounded-3">
+                    <a
+                      class="text-decoration-none p-2 d-inline-blok text-dark"
+                      href="#"
+                      ><i class="fa-solid fa-hotel p-2"></i>hotel</a
+                    >
+                  </li>
+                  <li class="text-center rounded-3">
+                    <a
+                      class="text-decoration-none p-2 d-inline-blok text-dark"
+                      href="#"
+                      ><i class="fa-solid fa-plane p-2"></i>flight</a
+                    >
+                  </li>
+                  <li class="text-center align-middle rounded-3">
+                    <a
+                      class="text-decoration-none p-2 d-inline-blok text-dark"
+                      href="#"
+                      ><i class="fa-solid fa-earth-americas p-2"></i>tour</a
+                    >
+                  </li>
+                  <li class="text-center align-middle rounded-3">
+                    <a
+                      class="text-decoration-none p-2 d-inline-blok text-dark"
+                      href="#"
+                      ><i class="fa-solid fa-car p-2"></i>car</a
+                    >
+                  </li>
+                  <li></li>
+                </ul>
+                <div class="d-flex justify-content-center align-items-center">
+                  <a
+                    href="#"
+                    class="text-decoration-none text-dark bg-secondary-subtle rounded-3 p-3 m-auto d-flex justify-content-center align-items-center"
+                    ><i class="fa-regular fa-bell text-secondary m-auto"></i>
+                    <!-- <div class=" top-0 start-100 translate-middle rounded  w-25"></div> -->
+                  </a>
+                  <img
+                    src="images/avatar/03.jpg"
+                    alt="person img"
+                    width="48"
+                    class="d-inline-block mx-3 rounded-3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- //////////////////////////////////////////// -->
+
+    <main>
+      <section class="main-header mb-5">
+        <div class="container">
+          <div class="row gy-5 ">
+            <div class="col-md-6">
+              <h1 class="mt-5 text-capitalize fw-bolder text-dark">
+                find the top
+                <span class="position-relative span-1">
+                  hotels nearby.
+                  <span
+                    class="position-absolute top-50 start-50 translate-middle d-block mt-4"
+                  >
+                    <svg
+                      width="390.5px"
+                      height="21.5px"
+                      viewBox="0 0 445.5 21.5"
+                    >
+                      <path
+                        class="text-primary opacity-7"
+                        d="M409.9,2.6c-9.7-0.6-19.5-1-29.2-1.5c-3.2-0.2-6.4-0.2-9.7-0.3c-7-0.2-14-0.4-20.9-0.5 c-3.9-0.1-7.8-0.2-11.7-0.3c-1.1,0-2.3,0-3.4,0c-2.5,0-5.1,0-7.6,0c-11.5,0-23,0-34.5,0c-2.7,0-5.5,0.1-8.2,0.1 c-6.8,0.1-13.6,0.2-20.3,0.3c-7.7,0.1-15.3,0.1-23,0.3c-12.4,0.3-24.8,0.6-37.1,0.9c-7.2,0.2-14.3,0.3-21.5,0.6 c-12.3,0.5-24.7,1-37,1.5c-6.7,0.3-13.5,0.5-20.2,0.9C112.7,5.3,99.9,6,87.1,6.7C80.3,7.1,73.5,7.4,66.7,8 C54,9.1,41.3,10.1,28.5,11.2c-2.7,0.2-5.5,0.5-8.2,0.7c-5.5,0.5-11,1.2-16.4,1.8c-0.3,0-0.7,0.1-1,0.1c-0.7,0.2-1.2,0.5-1.7,1 C0.4,15.6,0,16.6,0,17.6c0,1,0.4,2,1.1,2.7c0.7,0.7,1.8,1.2,2.7,1.1c6.6-0.7,13.2-1.5,19.8-2.1c6.1-0.5,12.3-1,18.4-1.6 c6.7-0.6,13.4-1.1,20.1-1.7c2.7-0.2,5.4-0.5,8.1-0.7c10.4-0.6,20.9-1.1,31.3-1.7c6.5-0.4,13-0.7,19.5-1.1c2.7-0.1,5.4-0.3,8.1-0.4 c10.3-0.4,20.7-0.8,31-1.2c6.3-0.2,12.5-0.5,18.8-0.7c2.1-0.1,4.2-0.2,6.3-0.2c11.2-0.3,22.3-0.5,33.5-0.8 c6.2-0.1,12.5-0.3,18.7-0.4c2.2-0.1,4.4-0.1,6.7-0.1c11.5-0.1,23-0.2,34.6-0.4c7.2-0.1,14.4-0.1,21.6-0.1c12.2,0,24.5,0.1,36.7,0.1 c2.4,0,4.8,0.1,7.2,0.2c6.8,0.2,13.5,0.4,20.3,0.6c5.1,0.2,10.1,0.3,15.2,0.4c3.6,0.1,7.2,0.4,10.8,0.6c10.6,0.6,21.1,1.2,31.7,1.8 c2.7,0.2,5.4,0.4,8,0.6c2.9,0.2,5.8,0.4,8.6,0.7c0.4,0.1,0.9,0.2,1.3,0.3c1.1,0.2,2.2,0.2,3.2-0.4c0.9-0.5,1.6-1.5,1.9-2.5 c0.6-2.2-0.7-4.5-2.9-5.2c-1.9-0.5-3.9-0.7-5.9-0.9c-1.4-0.1-2.7-0.3-4.1-0.4c-2.6-0.3-5.2-0.4-7.9-0.6 C419.7,3.1,414.8,2.9,409.9,2.6z"
+                      ></path>
+                    </svg>
+                  </span>
+                </span>
+              </h1>
+
+              <p class="header-content lead my-4">
+                We bring you not only a stay option, but an experience in your
+                budget to enjoy the luxury.
+              </p>
+              <div class="discover d-flex flex-wrap align-items-center gap-5">
+                <a
+                  href="#"
+                  role="button"
+                  class="text-capitalize dis-a1 btn fs-5 fw-bold text-decoration-none"
+                >
+                  discover now
+                </a>
+                <a
+                  href="youtube.com"
+                  class="text-capitalize btn text-decoration-none d-block"
+                >
+                  <div class="discover-ava position-relative d-flex column-gap-2 align-items-center ">
+                    <img
+                      src="images/avatar/02.jpg"
+                      class="rounded-circle discover-ava-img"
+                      alt=" avater"
+                    />
+                    <div
+                      class="btn btn-xs btn-round btn-white shadow-sm position-absolute top-50 start-50 translate-middle z-index-9 mb-0"
+                    >
+                      <i class="fas fa-play"></i>
+                    </div>
+                    <div class=" w-100">
+                      <h6 class="fw-normal small mx-4  mb-0">Watch our story</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 position-relative mt-5">
+              <img
+                src="images/bg/06.jpg"
+                alt="hotel img"
+                class="header-img rounded-2 d-block"
+                width="100%"
+              />
+              <figure class="position-absolute svg-1 end-0 bottom-0">
+                <svg width="163px" height="163px" viewBox="0 0 163 163">
+                  <path
+                    class="fill-warning"
+                    d="M145.6,66.2c-0.9-0.3-1.6,0.2-2.1-0.4c-0.5-0.7-1-1.5-1-2.4c0-3.1,0.1-6.2,0-9.3c0-0.7,0.3-1.3,0.5-1.9 c0.8-1.6,1.6-3.2,2.7-4.5c0.5-0.6,1.2-1.2,2-1.5c0.4-0.2,0.8,0.4,1.3-0.1c0.4-0.4,1,0.7,1.6,0.7c0.4,1-0.4,1.5-1,2.1 c0.7,0.3,1.4,0.3,2.1,0.7c0.6,0.4,1.2,0.7,1,1.5c-0.2,1,0.6,1.3,1,1.9c-0.2,0.3-0.6,0.4-0.5,0.8c1.2,3.2,0.3,5.4-0.7,8.1 c-0.3,0.7-0.7,1.6-0.7,2.2c-0.1,1.5-1.2,2.7-1.4,4.1c-0.2,1.1-0.9,1.7-2.1,1.6c-0.2,0-0.4,0.5-1,0.4c-0.2-0.2-0.7-0.5-0.7-0.8 c0-1-0.1-1.7-1.1-2.1C145.5,67.2,145.6,66.6,145.6,66.2"
+                  ></path>
+                  <path
+                    class="fill-warning"
+                    d="M94.3,143.5c1.1,0.3,2.4-0.5,3.2,0.7c-0.4,0.7-0.7,1.4-1,2.1c0.5,0.5,0.7,0.2,1.2,0.1c1.6-0.6,2-0.4,2.5,1.2 c0.1,0.2,0,0.6,0.3,0.6c1.8,0.4,1.4,2.2,2.1,3.2c-0.8,0.9,0.5,1.8,0.1,2.6c-0.5,0.8-0.3,2-1.3,2.6c-0.3,0.2-0.1,0.5-0.2,0.7 c-0.3,2.1-1.2,3.7-3.4,4.4c-0.3,0.1-0.4,0.6-1,0.4c-0.3-0.6-0.6-1.3-1-1.9c-0.5-0.2-1.5,0.3-1.4-1h-3c-0.2-1.4,0-2.9-1.1-3.9 c-0.1-0.1-0.1-0.4,0-0.5c0.7-1.2,0.2-2.6,0.7-3.8c0.3-0.6,0.4-1,0.1-1.6c-0.9-1.3,0-2.4,0.7-3.3C92.5,145,93.4,144.3,94.3,143.5"
+                  ></path>
+                  <path
+                    class="fill-warning"
+                    d="M119.6,77.3c-0.4,0.8-1.1,0.6-2,0.8c0.2,1.1-0.4,2.2,0.5,3.3c-0.8,0-0.8,0-1.2-0.3c-0.6,0.3-0.8,1-1.2,1.6 c0.1-1.9-0.6-3.2-2-4.1c-0.6-0.1-0.7,0.3-1,0.5c-1-1.9-1-2.8-0.2-7.7c0.4-2.5,1.7-4.6,3.6-6.8c0.6-0.1,1.5,1.5,2.3,0 c0.8,1.5-0.7,2.3-0.8,3.7c0.8-0.4,1.6-0.7,2.4-0.4c0.4,0.4-0.1,1,0.3,1.4c0.8,0.6,1.4,1.3,0.4,2.3c1.1,0.8-0.3,1.5-0.1,2.4 c0.2,0.8,0,1.7,0,2.5c-0.8-0.2-1-1.1-1.8-1C118.2,76.4,119.5,76.5,119.6,77.3"
+                  ></path>
+                  <path
+                    class="fill-warning"
+                    d="M25,131c-0.3-0.6-1.2-0.3-1.7-0.5v-1.2c-0.1-0.1-0.1-0.2-0.2-0.2c-1.4,0.5-2.2-1-3.4-1.2 c-1.2-0.1-1.9-1-2.1-2.2c-0.1-0.5,0.1-0.8,0.5-1.1c-2-1.7-0.8-3.4-0.1-5.1c0.8-2.2,2.6-2.5,4.6-2.4c0.4,1.1,0.2,2-0.6,2.7 c1.5,1,2-0.5,3-0.8c0.3,0.6,0.6,1.2,0.9,1.6c0,0.6-0.8,0.8-0.4,1.4c0.7,0.8,0.9-0.5,1.7-0.3c1,0.9,0.9,2.2,0.8,3.4 c0.4,0.1,0.6,0.2,1,0.3c-0.1,0.6-1,0.8-1,1.5c0,0.8,0.8,0.2,1,0.7C27.7,128.8,26.9,130.3,25,131"
+                  ></path>
+                  <path
+                    class="fill-warning"
+                    d="M84.9,95H87c0.4,0.4,0.3,1.6-0.3,2.8c1.2,1,1.7-0.5,2.4-0.8c0.8,0,0.8,0.6,1.2,0.7c0.2,0.8-0.7,0.9-0.4,1.7 c0.5,0.3,1.7,0,1.9,0.9c0.2,0.7,0.3,1.5-0.5,2.1c0.3,0.1,0.6,0.2,0.9,0.3c-0.1,0.7-1.1,1.3-0.5,2.2c-1.1,1.5-3,2.1-4.4,3.3 c-0.3,0.2-0.8,1-1.5,0.5c-0.3-0.4,0.4-0.4,0.3-0.8c-0.7-0.5-1.6,0.1-2.4-0.3c-0.2-0.6,0.1-1.4-0.8-1.8c-1.1,0.5-2.2,0.7-3.2-0.8 c1.3-0.8,3-1.1,3.2-3c-1,0-1.7,0.9-2.7,1c-0.2-0.2-0.5-0.4-0.8-0.7c-0.1-0.1,0.1-0.1,0.2-0.3c0.6-1.1,2.4-1,2.5-2.5 c1.2-0.5,1.1-1.7,1.3-2.5C83.8,96.3,84.3,95.7,84.9,95"
+                  ></path>
+                  <path
+                    class="fill-warning"
+                    d="M41.2,153.9c0.3-0.7,0.9-0.8,0.4-1.6c-0.3-0.3-1.1,0.2-1.8-0.2c0-0.2-0.1-0.4-0.1-0.7c-0.1-0.1-0.2-0.2-0.3,0 c-0.3,0.4-0.7,0.4-1.1,0.4c-1.3,0-1.5-0.4-1.6-1.7c0-0.6,0.4-0.8,0.5-1.4c-0.4,0-0.8-0.1-1.4-0.1c-0.4-1.9,0.7-3.6,1.1-5.4 c0.2-0.9,1.6-1.3,2.7-1.3c0.4,0.2,0.3,0.6,0.3,0.7c0.2,0.4,0.3,0.3,0.4,0.1c0.6-0.5,1.3-0.6,1.7,0.1c0.5,0.7,1.1,0.6,1.8,0.7 c0.4,0.4,0.1,0.8,0.2,1.2c0.3,0.4,0.8,0.2,1.3,0.3c1,0.7,0.5,2.1,1.3,2.9C43.8,152.3,43.1,153.1,41.2,153.9"
+                  ></path>
+                  <path
+                    class="fill-warning"
+                    d="M70.9,43.4c-0.3-1.4-1.2-1.8-2.6-1.5c-1.2-2.3-0.8-4.8-0.5-7.2c0.1-0.5,0.4-1.1,0.3-1.7 c-0.2-1.1,0.5-1.9,0.6-2.9c0.1-0.7,1.3-0.9,2-1.3c0.9,0.8,0.9,0.8,1.2,2c0.3,0,0.6,0,0.4,0c1.3,0,0.8,0.9,1.3,1.2 c0.3,0.1,0.8,0.5,0.7,1c-0.2,0.8,1,1.4,0.5,2.1c-0.5,0.7-0.2,1.5-0.5,2.1c-0.8,1.5-1,3.2-1.5,4.8C72.6,43.1,72,43.4,70.9,43.4"
+                  ></path>
+                  <path
+                    class="fill-warning"
+                    d="M125.4,118.4c-0.4-0.3-0.6-0.7-1.3-0.8c-1.6-0.1-1.6-0.2-1.9-1.9c-1.1-0.4-2.2,0-3.2,0.4 c-0.5-0.5-0.2-0.9-0.4-1.4c0.4-0.1,0.7-0.2,1-0.4v-3c-0.5,0.2-1,0.3-1.7,0.5c-0.3,0-0.4-0.6-0.8-0.7c0.6-1.5,1.8-2.4,2.8-3.5 c1.3,0.3,2.6-1.1,3.8,0.4c0,0.1-0.1,1.8,0,2.1c-0.2,0-0.5,0.1-0.7,0.1c-0.2,0-0.3,0-0.5,0c-0.4,0.4-0.1,1.1-0.7,1.5 c1.3-0.5,2.4-1,3.3-2c0.4,0.4,0.7,0.8,1.4,0.6c-1.1,0.9,0.4,2.1-1,2.9c1,0,1.1-0.6,1.5-0.8c0.4-0.1,0.8-0.1,1.2-0.2 c0.5,1,1.1,1.8,0.6,3c-0.7,0.6-2.2,0.4-2.5,2.1c1.2-0.2,1.9-0.9,2.5-1.5c0.7,0.1,0.7,0.5,0.6,0.8c-1.3-0.1-1.2,1.5-2.3,1.9 c-0.9,0.3-1.6,1-2.7,1.8C124.7,119.5,125.1,119,125.4,118.4"
+                  ></path>
+                  <path
+                    class="fill-warning"
+                    d="M101.7,41c-0.3,0.3-0.6,0.6-0.9,0.9c0.9,0.6-0.9,1.6,0.4,2.1c-2,2.3-2,2.4-2.1,4.8h-2.4c-0.2-0.1,0-0.5-0.2-0.8 c-2.4-0.3-2.9-0.8-3-3.3c0-0.6,0.2-1.4-0.5-1.8c0.5-0.7,0.2-1.6,0.7-2.4c1-1.5,2.3-2.7,3.5-3.9c0.5-0.2,1-0.1,1.4,0 c0.2,1-1.1,1.6-0.2,2.6c0.3-0.4,0.6-0.8,0.9-1.3C100.2,39.2,101.7,39.5,101.7,41"
+                  ></path>
+                  <path
+                    class="fill-warning"
+                    d="M140.4,5.4c-0.4,0.6-1.2-0.1-1.5,0.6c0.7,0.4,1.5,0.1,2.3,0.2c0.3,1.1,0.9,2.1,1.3,3.2c0.9,2.4,0.3,4.4-0.6,6.6 c-0.4,0.9-0.9,1.2-1.9,1c-0.2-0.5-0.5-1.2-0.9-1.9c-0.6-0.2-1.5,0-1.9-1c0.1-1.7,0.1-3.6-1.1-5.2c0.4-0.7,0.7-1.3,1.1-1.9 c-0.3-0.1-0.6-0.2-1-0.4c0.2-0.8,0.5-1.6,1.3-2.3h2.2C140,4.6,140.5,4.8,140.4,5.4"
+                  ></path>
+                  <path
+                    class="fill-warning"
+                    d="M65.7,68.8c-0.4,0.6-0.9,0.4-1.4,0.4c-1.2-1.1-0.4-2.9-1.4-4.1c1.5-3,1.5-3,4.1-4.2c0.5,0.1,0.8,0.5,1,1 c0.1,0.6-0.8,0.7-0.5,1.3c0.5,0.6,0.9,0.2,1.2-0.2c1.5,0.6,1.1,2.5,2.4,3.3c-0.1,1.1,0.2,2.2-0.2,3.2L69,72.2c-0.3,0-0.7,0-1,0 c-0.3-0.5-0.9-2.2-0.8-2.4C66.7,69.6,66.2,69.2,65.7,68.8"
+                  ></path>
+                  <path
+                    class="fill-warning"
+                    d="M37.5,69.7c-0.5,0.2,0,0.9-0.4,1c-0.7,0.2-1-0.2-1.2-0.6c-0.4-0.7,0.1-1.6-0.2-2.2c-0.5-0.7-0.6-1.2-0.1-2 c0.5-0.6,0.2-1.5,0.6-2.3c0.9-2,0.9-2.1,3-2.1c0.1,0.1,0.2,0.1,0.2,0.2c0,0.3,0,0.7,0,1.1c0.7,0.4,1.7,0.1,2.1,1.3 c0.3,0.9,1.2,1.5,1,2.7c-0.2,0.9,0.1,1.8-0.8,2.5c-0.4,0.4-0.8,1.1-0.8,2c0,0.6-0.5,1-1.2,1.1c-0.6,0.1-1-0.3-1.2-0.7 C38,71,37.8,70.3,37.5,69.7"
+                  ></path>
+                  <path
+                    class="fill-warning"
+                    d="M53.9,87.8c0.7,0,1.4,0,2.1,0c0.5,0.3,0.1,1,0.4,1.4c0.4,0.3,0.8,0.1,1.2,0.2c0.6,1.2,1.4,2.4,1.7,3.6 c0.4,1.4-0.2,2.7-0.7,4c-1,0.4-1.5-0.4-2.1-0.9c-0.7,0-1.4,0-2.1,0c-0.4-1-0.8-1.8-2.1-1.5c-0.6-0.7,0.2-1.8-0.7-2.3 c0.5-0.6,0.9-1.3,1-2.1C52.8,89.2,53.2,88.5,53.9,87.8"
+                  ></path>
+                  <path
+                    class="fill-warning"
+                    d="M0.1,95.7c0.9-1.3,2.3-1.7,3.8-1.8c1,1.2-0.7,1.5-0.8,2.3c1.1,1,2-0.7,3.1,0c0.6,0.6-0.2,0.8-0.3,1.2 c0.4,0.5,1,0,1.4,0.3c0.4,1.1-0.3,2.3,0.6,3.3c-0.8,0.8-0.7,2.2-1.9,2.8c-1.1-0.2-1.8-1-2.6-1.7c-0.7-0.6-1.9-0.5-2.6-1.9 C1,98.9-0.4,97.4,0.1,95.7"
+                  ></path>
+                  <path
+                    class="fill-warning"
+                    d="M155.5,91.5c-0.9-0.5-1.7-0.7-2.3-1.6c0.4-0.2,0.8-0.5,1.2-0.7c-1.2-0.4-2.1,0.7-3.1,0c0.6-1,1.8-1,2.5-1.7 c0.1-0.6-0.3-0.6-0.7-0.7c-0.7-0.2-0.9,0.9-1.6,0.5c-0.3-0.3-0.4-0.7-0.1-0.9c1.7-1,3-2.3,4.5-3.5c0.9-0.7,1.1-0.9,2.5-1.2 c-0.1,0.5-0.6,0.7-0.9,1.1c0.7,0.7,1.3,0.1,1.9-0.2c0.1,1.1,0.9,1.9,0.5,3.4C158.3,87.4,157.4,89.8,155.5,91.5"
+                  ></path>
+                </svg>
+              </figure>
+              <div class="client-ser position-absolute top-0 end-0">
+                <div
+                  class="rounded border border-light text-center rounded-3 p-3 shadow-lg"
+                >
+                  <i class="fa-solid fa-headset text-danger fs-1"></i>
+                  <h5 class="m-1 text-dark fw-bold">24 / 7</h5>
+                  <h6 class="mb-0 text-dark fw-light">Guide Supports</h6>
+                </div>
+              </div>
+              <div
+                class="content-img flex-column d-flex align-items-center gap-5 position-absolute top-0 start-0 mt-4"
+              >
+                <img
+                  src="images/category/hotel/4by3/11.jpg"
+                  alt="hotel"
+                  class="border-3 border border-white rounded-circle border-light"
+                  width="80"
+                />
+                <img
+                  src="images/category/hotel/4by3/12.jpg"
+                  alt="hotel"
+                  class="border-3 border border-white rounded-circle border-light"
+                  width="100"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ////////////////cursol offers section ///////////////////////// -->
+
+       <section class="cursor-1 py-5 slider-1">
+        <div class="container">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner overflow-hidden">
+              <div class="carousel-item active">
+                <div class="row g-1">
+                  <div class="col-md-4">
+                    <div class="card rounded-3 border overflow-hidden">
+                      <div class="row align-items-center">
+                        <div class="col-md-6">
+                          <div class="img-wrapper">
+                            <img
+                              src="images/offer/01.jpg"
+                              alt="offer1"
+                              class="card-img rounded-1"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="card-body px-3">
+                            <h6
+                              class="card-title text-dark fw-bold text-capitalize"
+                            >
+                              <a href="#" class="text-decoration-none"
+                                >Up to 60% OFF</a
+                              >
+                            </h6>
+
+                            <p class="mb-0">On Hotel Bookings Online</p>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card rounded-3 border overflow-hidden">
+                      <div class="row align-items-center">
+                        <div class="col-md-6">
+                          <div class="img-wrapper">
+                            <img
+                              src="images/offer/02.jpg"
+                              alt="offer2"
+                              class="card-img rounded-1"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="card-body px-3">
+                            <h6
+                              class="card-title text-dark fw-bold text-capitalize"
+                            >
+                              <a href="#" class="text-decoration-none"
+                                >book and enjoy</a
+                              >
+                            </h6>
+                            <p class="text-secandry mb-0">
+                              20% Off on the best room rate
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card rounded-3 border overflow-hidden">
+                      <div class="row align-items-center">
+                        <div class="col-md-6">
+                          <div class="img-wrapper">
+                            <img
+                              src="images/offer/03.jpg"
+                              alt=""
+                              width="100%"
+                              class="card-img d-block card-img align-middle rounded-1"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="card-body px-3">
+                            <h6
+                              class="card-title text-dark fw-bold text-capitalize"
+                            >
+                              <a href="#" class="text-decoration-none"
+                                >Summer Nights</a
+                              >
+                            </h6>
+                            <p class="mb-0">Up to 3 nights free!</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row g-1">
+                  <div class="col-md-4">
+                    <div class="card rounded-3 border overflow-hidden">
+                      <div class="row align-items-center">
+                        <div class="col-md-6">
+                          <div class="img-wrapper">
+                            <img
+                              src="images/offer/01.jpg"
+                              alt="offer1"
+                              class="card-img rounded-1"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="card-body px-3">
+                            <h6
+                              class="card-title text-dark fw-bold text-capitalize"
+                            >
+                              <a href="#" class="text-decoration-none"
+                                >Up to 60% OFF</a
+                              >
+                            </h6>
+
+                            <p class="mb-0">On Hotel Bookings Online</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card rounded-3 border overflow-hidden">
+                      <div class="row align-items-center">
+                        <div class="col-md-6">
+                          <div class="img-wrapper">
+                            <img
+                              src="images/offer/02.jpg"
+                              alt="offer2"
+                              class="card-img rounded-1"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="card-body px-3">
+                            <h6
+                              class="card-title text-dark fw-bold text-capitalize"
+                            >
+                              <a href="#" class="text-decoration-none"
+                                >book and enjoy</a
+                              >
+                            </h6>
+                            <p class="text-secandry mb-0">
+                              20% Off on the best room rate
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card rounded-3 border overflow-hidden">
+                      <div class="row align-items-center">
+                        <div class="col-md-6">
+                          <div class="img-wrapper">
+                            <img
+                              src="images/offer/03.jpg"
+                              alt=""
+                              width="100%"
+                              class="card-img d-block card-img align-middle rounded-1"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="card-body px-3">
+                            <h6
+                              class="card-title text-dark fw-bold text-capitalize"
+                            >
+                              <a href="#" class="text-decoration-none"
+                                >Summer Nights</a
+                              >
+                            </h6>
+                            <p class="mb-0">Up to 3 nights free!</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row g-1">
+                  <div class="col-md-4">
+                    <div class="card rounded-3 border overflow-hidden">
+                      <div class="row align-items-center">
+                        <div class="col-md-6">
+                          <div class="img-wrapper">
+                            <img
+                              src="images/offer/01.jpg"
+                              alt="offer1"
+                              class="card-img rounded-1"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="card-body px-3">
+                            <h6
+                              class="card-title text-dark fw-bold text-capitalize"
+                            >
+                              <a href="#" class="text-decoration-none"
+                                >Up to 60% OFF</a
+                              >
+                            </h6>
+
+                            <p class="mb-0">On Hotel Bookings Online</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                      
+                      
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card rounded-3 border overflow-hidden">
+                      <div class="row align-items-center">
+                        <div class="col-md-6">
+                          <div class="img-wrapper">
+                            <img
+                              src="images/offer/02.jpg"
+                              alt="offer2"
+                              class="card-img rounded-1"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="card-body px-3">
+                            <h6
+                              class="card-title text-dark fw-bold text-capitalize"
+                            >
+                              <a href="#" class="text-decoration-none"
+                                >book and enjoy</a
+                              >
+                            </h6>
+                            <p class="text-secandry mb-0">
+                              20% Off on the best room rate
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      
+
+
+
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card rounded-3 border overflow-hidden">
+                      <div class="row align-items-center">
+                        <div class="col-md-6">
+                          <div class="img-wrapper">
+                            <img
+                              src="images/offer/03.jpg"
+                              alt=""
+                              width="100%"
+                              class="card-img d-block card-img align-middle rounded-1"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="card-body px-3">
+                            <h6
+                              class="card-title text-dark fw-bold text-capitalize"
+                            >
+                              <a href="#" class="text-decoration-none">
+                                Summer Nights</a
+                              >
+                            </h6>
+                            <p class="mb-0">Up to 3 nights free!</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section> 
+
+      <!-- ////////////////////////about///////////////////////////////// -->
+
+      <section class="about mt-5">
+        <div class="container">
+          <div class="row gy-5 justify-content-between align-items-center">
+            <div class="col-md-5">
+              <div class="about-inner position-relative">
+                <figure
+                  class="star position-absolute top-0 start-0 translate-middle"
+                >
+                  <svg class="fill-warning" width="77px" height="77px">
+                    <path
+                      d="M76.997,41.258 L45.173,41.258 L67.676,63.760 L63.763,67.673 L41.261,45.171 L41.261,76.994 L35.728,76.994 L35.728,45.171 L13.226,67.673 L9.313,63.760 L31.816,41.258 L-0.007,41.258 L-0.007,35.725 L31.816,35.725 L9.313,13.223 L13.226,9.311 L35.728,31.813 L35.728,-0.010 L41.261,-0.010 L41.261,31.813 L63.763,9.311 L67.676,13.223 L45.174,35.725 L76.997,35.725 L76.997,41.258 Z"
+                    ></path>
+                  </svg>
+                </figure>
+
+                <figure
+                  class="dashed-border position-absolute end-0 bottom-0 mb-n5 me-n3 d-block"
+                >
+                  <svg
+                    height="400"
+                    class="fill-primary opacity-2"
+                    viewBox="0 0 340 340"
+                  >
+                    <circle cx="194.2" cy="2.2" r="2.2"></circle>
+                    <circle cx="2.2" cy="2.2" r="2.2"></circle>
+                    <circle cx="218.2" cy="2.2" r="2.2"></circle>
+                    <circle cx="26.2" cy="2.2" r="2.2"></circle>
+                    <circle cx="242.2" cy="2.2" r="2.2"></circle>
+                    <circle cx="50.2" cy="2.2" r="2.2"></circle>
+                    <circle cx="266.2" cy="2.2" r="2.2"></circle>
+                    <circle cx="74.2" cy="2.2" r="2.2"></circle>
+                    <circle cx="290.2" cy="2.2" r="2.2"></circle>
+                    <circle cx="98.2" cy="2.2" r="2.2"></circle>
+                    <circle cx="314.2" cy="2.2" r="2.2"></circle>
+                    <circle cx="122.2" cy="2.2" r="2.2"></circle>
+                    <circle cx="338.2" cy="2.2" r="2.2"></circle>
+                    <circle cx="146.2" cy="2.2" r="2.2"></circle>
+                    <circle cx="170.2" cy="2.2" r="2.2"></circle>
+                    <circle cx="194.2" cy="26.2" r="2.2"></circle>
+                    <circle cx="2.2" cy="26.2" r="2.2"></circle>
+                    <circle cx="218.2" cy="26.2" r="2.2"></circle>
+                    <circle cx="26.2" cy="26.2" r="2.2"></circle>
+                    <circle cx="242.2" cy="26.2" r="2.2"></circle>
+                    <circle cx="50.2" cy="26.2" r="2.2"></circle>
+                    <circle cx="266.2" cy="26.2" r="2.2"></circle>
+                    <circle cx="74.2" cy="26.2" r="2.2"></circle>
+                    <circle cx="290.2" cy="26.2" r="2.2"></circle>
+                    <circle cx="98.2" cy="26.2" r="2.2"></circle>
+                    <circle cx="314.2" cy="26.2" r="2.2"></circle>
+                    <circle cx="122.2" cy="26.2" r="2.2"></circle>
+                    <circle cx="338.2" cy="26.2" r="2.2"></circle>
+                    <circle cx="146.2" cy="26.2" r="2.2"></circle>
+                    <circle cx="170.2" cy="26.2" r="2.2"></circle>
+                    <circle cx="194.2" cy="50.2" r="2.2"></circle>
+                    <circle cx="2.2" cy="50.2" r="2.2"></circle>
+                    <circle cx="218.2" cy="50.2" r="2.2"></circle>
+                    <circle cx="26.2" cy="50.2" r="2.2"></circle>
+                    <circle cx="242.2" cy="50.2" r="2.2"></circle>
+                    <circle cx="50.2" cy="50.2" r="2.2"></circle>
+                    <circle cx="266.2" cy="50.2" r="2.2"></circle>
+                    <circle cx="74.2" cy="50.2" r="2.2"></circle>
+                    <circle cx="290.2" cy="50.2" r="2.2"></circle>
+                    <circle cx="98.2" cy="50.2" r="2.2"></circle>
+                    <circle cx="314.2" cy="50.2" r="2.2"></circle>
+                    <circle cx="122.2" cy="50.2" r="2.2"></circle>
+                    <circle cx="338.2" cy="50.2" r="2.2"></circle>
+                    <circle cx="146.2" cy="50.2" r="2.2"></circle>
+                    <circle cx="170.2" cy="50.2" r="2.2"></circle>
+                    <circle cx="194.2" cy="74.2" r="2.2"></circle>
+                    <circle cx="2.2" cy="74.2" r="2.2"></circle>
+                    <circle cx="218.2" cy="74.2" r="2.2"></circle>
+                    <circle cx="26.2" cy="74.2" r="2.2"></circle>
+                    <circle cx="242.2" cy="74.2" r="2.2"></circle>
+                    <circle cx="50.2" cy="74.2" r="2.2"></circle>
+                    <circle cx="266.2" cy="74.2" r="2.2"></circle>
+                    <circle cx="74.2" cy="74.2" r="2.2"></circle>
+                    <circle cx="290.2" cy="74.2" r="2.2"></circle>
+                    <circle cx="98.2" cy="74.2" r="2.2"></circle>
+                    <circle cx="314.2" cy="74.2" r="2.2"></circle>
+                    <circle cx="122.2" cy="74.2" r="2.2"></circle>
+                    <circle cx="338.2" cy="74.2" r="2.2"></circle>
+                    <circle cx="146.2" cy="74.2" r="2.2"></circle>
+                    <circle cx="170.2" cy="74.2" r="2.2"></circle>
+                    <circle cx="194.2" cy="98.2" r="2.2"></circle>
+                    <circle cx="2.2" cy="98.2" r="2.2"></circle>
+                    <circle cx="218.2" cy="98.2" r="2.2"></circle>
+                    <circle cx="26.2" cy="98.2" r="2.2"></circle>
+                    <circle cx="242.2" cy="98.2" r="2.2"></circle>
+                    <circle cx="50.2" cy="98.2" r="2.2"></circle>
+                    <circle cx="266.2" cy="98.2" r="2.2"></circle>
+                    <circle cx="74.2" cy="98.2" r="2.2"></circle>
+                    <circle cx="290.2" cy="98.2" r="2.2"></circle>
+                    <circle cx="98.2" cy="98.2" r="2.2"></circle>
+                    <circle cx="314.2" cy="98.2" r="2.2"></circle>
+                    <circle cx="122.2" cy="98.2" r="2.2"></circle>
+                    <circle cx="338.2" cy="98.2" r="2.2"></circle>
+                    <circle cx="146.2" cy="98.2" r="2.2"></circle>
+                    <circle cx="170.2" cy="98.2" r="2.2"></circle>
+                    <circle cx="194.2" cy="122.2" r="2.2"></circle>
+                    <circle cx="2.2" cy="122.2" r="2.2"></circle>
+                    <circle cx="218.2" cy="122.2" r="2.2"></circle>
+                    <circle cx="26.2" cy="122.2" r="2.2"></circle>
+                    <circle cx="242.2" cy="122.2" r="2.2"></circle>
+                    <circle cx="50.2" cy="122.2" r="2.2"></circle>
+                    <circle cx="266.2" cy="122.2" r="2.2"></circle>
+                    <circle cx="74.2" cy="122.2" r="2.2"></circle>
+                    <circle cx="290.2" cy="122.2" r="2.2"></circle>
+                    <circle cx="98.2" cy="122.2" r="2.2"></circle>
+                    <circle cx="314.2" cy="122.2" r="2.2"></circle>
+                    <circle cx="122.2" cy="122.2" r="2.2"></circle>
+                    <circle cx="338.2" cy="122.2" r="2.2"></circle>
+                    <circle cx="146.2" cy="122.2" r="2.2"></circle>
+                    <circle cx="170.2" cy="122.2" r="2.2"></circle>
+                    <circle cx="194.2" cy="146.2" r="2.2"></circle>
+                    <circle cx="2.2" cy="146.2" r="2.2"></circle>
+                    <circle cx="218.2" cy="146.2" r="2.2"></circle>
+                    <circle cx="26.2" cy="146.2" r="2.2"></circle>
+                    <circle cx="242.2" cy="146.2" r="2.2"></circle>
+                    <circle cx="50.2" cy="146.2" r="2.2"></circle>
+                    <circle cx="266.2" cy="146.2" r="2.2"></circle>
+                    <circle cx="74.2" cy="146.2" r="2.2"></circle>
+                    <circle cx="290.2" cy="146.2" r="2.2"></circle>
+                    <circle cx="98.2" cy="146.2" r="2.2"></circle>
+                    <circle cx="314.2" cy="146.2" r="2.2"></circle>
+                    <circle cx="122.2" cy="146.2" r="2.2"></circle>
+                    <circle cx="338.2" cy="146.2" r="2.2"></circle>
+                    <circle cx="146.2" cy="146.2" r="2.2"></circle>
+                    <circle cx="170.2" cy="146.2" r="2.2"></circle>
+                    <circle cx="194.2" cy="170.2" r="2.2"></circle>
+                    <circle cx="2.2" cy="170.2" r="2.2"></circle>
+                    <circle cx="218.2" cy="170.2" r="2.2"></circle>
+                    <circle cx="26.2" cy="170.2" r="2.2"></circle>
+                    <circle cx="242.2" cy="170.2" r="2.2"></circle>
+                    <circle cx="50.2" cy="170.2" r="2.2"></circle>
+                    <circle cx="266.2" cy="170.2" r="2.2"></circle>
+                    <circle cx="74.2" cy="170.2" r="2.2"></circle>
+                    <circle cx="290.2" cy="170.2" r="2.2"></circle>
+                    <circle cx="98.2" cy="170.2" r="2.2"></circle>
+                    <circle cx="314.2" cy="170.2" r="2.2"></circle>
+                    <circle cx="122.2" cy="170.2" r="2.2"></circle>
+                    <circle cx="338.2" cy="170.2" r="2.2"></circle>
+                    <circle cx="146.2" cy="170.2" r="2.2"></circle>
+                    <circle cx="170.2" cy="170.2" r="2.2"></circle>
+                    <circle cx="194.2" cy="194.2" r="2.2"></circle>
+                    <circle cx="2.2" cy="194.2" r="2.2"></circle>
+                    <circle cx="218.2" cy="194.2" r="2.2"></circle>
+                    <circle cx="26.2" cy="194.2" r="2.2"></circle>
+                    <circle cx="242.2" cy="194.2" r="2.2"></circle>
+                    <circle cx="50.2" cy="194.2" r="2.2"></circle>
+                    <circle cx="266.2" cy="194.2" r="2.2"></circle>
+                    <circle cx="74.2" cy="194.2" r="2.2"></circle>
+                    <circle cx="290.2" cy="194.2" r="2.2"></circle>
+                    <circle cx="98.2" cy="194.2" r="2.2"></circle>
+                    <circle cx="314.2" cy="194.2" r="2.2"></circle>
+                    <circle cx="122.2" cy="194.2" r="2.2"></circle>
+                    <circle cx="338.2" cy="194.2" r="2.2"></circle>
+                    <circle cx="146.2" cy="194.2" r="2.2"></circle>
+                    <circle cx="170.2" cy="194.2" r="2.2"></circle>
+                    <circle cx="194.2" cy="218.2" r="2.2"></circle>
+                    <circle cx="2.2" cy="218.2" r="2.2"></circle>
+                    <circle cx="218.2" cy="218.2" r="2.2"></circle>
+                    <circle cx="26.2" cy="218.2" r="2.2"></circle>
+                    <circle cx="242.2" cy="218.2" r="2.2"></circle>
+                    <circle cx="50.2" cy="218.2" r="2.2"></circle>
+                    <circle cx="266.2" cy="218.2" r="2.2"></circle>
+                    <circle cx="74.2" cy="218.2" r="2.2"></circle>
+                    <circle cx="290.2" cy="218.2" r="2.2"></circle>
+                    <circle cx="98.2" cy="218.2" r="2.2"></circle>
+                    <circle cx="314.2" cy="218.2" r="2.2"></circle>
+                    <circle cx="122.2" cy="218.2" r="2.2"></circle>
+                    <circle cx="338.2" cy="218.2" r="2.2"></circle>
+                    <circle cx="146.2" cy="218.2" r="2.2"></circle>
+                    <circle cx="170.2" cy="218.2" r="2.2"></circle>
+                    <circle cx="194.2" cy="242.2" r="2.2"></circle>
+                    <circle cx="2.2" cy="242.2" r="2.2"></circle>
+                    <circle cx="218.2" cy="242.2" r="2.2"></circle>
+                    <circle cx="26.2" cy="242.2" r="2.2"></circle>
+                    <circle cx="242.2" cy="242.2" r="2.2"></circle>
+                    <circle cx="50.2" cy="242.2" r="2.2"></circle>
+                    <circle cx="266.2" cy="242.2" r="2.2"></circle>
+                    <circle cx="74.2" cy="242.2" r="2.2"></circle>
+                    <circle cx="290.2" cy="242.2" r="2.2"></circle>
+                    <circle cx="98.2" cy="242.2" r="2.2"></circle>
+                    <circle cx="314.2" cy="242.2" r="2.2"></circle>
+                    <circle cx="122.2" cy="242.2" r="2.2"></circle>
+                    <circle cx="338.2" cy="242.2" r="2.2"></circle>
+                    <circle cx="146.2" cy="242.2" r="2.2"></circle>
+                    <circle cx="170.2" cy="242.2" r="2.2"></circle>
+                    <circle cx="194.2" cy="266.2" r="2.2"></circle>
+                    <circle cx="2.2" cy="266.2" r="2.2"></circle>
+                    <circle cx="218.2" cy="266.2" r="2.2"></circle>
+                    <circle cx="26.2" cy="266.2" r="2.2"></circle>
+                    <circle cx="242.2" cy="266.2" r="2.2"></circle>
+                    <circle cx="50.2" cy="266.2" r="2.2"></circle>
+                    <circle cx="266.2" cy="266.2" r="2.2"></circle>
+                    <circle cx="74.2" cy="266.2" r="2.2"></circle>
+                    <circle cx="290.2" cy="266.2" r="2.2"></circle>
+                    <circle cx="98.2" cy="266.2" r="2.2"></circle>
+                    <circle cx="314.2" cy="266.2" r="2.2"></circle>
+                    <circle cx="122.2" cy="266.2" r="2.2"></circle>
+                    <circle cx="338.2" cy="266.2" r="2.2"></circle>
+                    <circle cx="146.2" cy="266.2" r="2.2"></circle>
+                    <circle cx="170.2" cy="266.2" r="2.2"></circle>
+                    <circle cx="194.2" cy="290.2" r="2.2"></circle>
+                    <circle cx="2.2" cy="290.2" r="2.2"></circle>
+                    <circle cx="218.2" cy="290.2" r="2.2"></circle>
+                    <circle cx="26.2" cy="290.2" r="2.2"></circle>
+                    <circle cx="242.2" cy="290.2" r="2.2"></circle>
+                    <circle cx="50.2" cy="290.2" r="2.2"></circle>
+                    <circle cx="266.2" cy="290.2" r="2.2"></circle>
+                    <circle cx="74.2" cy="290.2" r="2.2"></circle>
+                    <circle cx="290.2" cy="290.2" r="2.2"></circle>
+                    <circle cx="98.2" cy="290.2" r="2.2"></circle>
+                    <circle cx="314.2" cy="290.2" r="2.2"></circle>
+                    <circle cx="122.2" cy="290.2" r="2.2"></circle>
+                    <circle cx="338.2" cy="290.2" r="2.2"></circle>
+                    <circle cx="146.2" cy="290.2" r="2.2"></circle>
+                    <circle cx="170.2" cy="290.2" r="2.2"></circle>
+                    <circle cx="194.2" cy="314.2" r="2.2"></circle>
+                    <circle cx="2.2" cy="314.2" r="2.2"></circle>
+                    <circle cx="218.2" cy="314.2" r="2.2"></circle>
+                    <circle cx="26.2" cy="314.2" r="2.2"></circle>
+                    <circle cx="242.2" cy="314.2" r="2.2"></circle>
+                    <circle cx="50.2" cy="314.2" r="2.2"></circle>
+                    <circle cx="266.2" cy="314.2" r="2.2"></circle>
+                    <circle cx="74.2" cy="314.2" r="2.2"></circle>
+                    <circle cx="290.2" cy="314.2" r="2.2"></circle>
+                    <circle cx="98.2" cy="314.2" r="2.2"></circle>
+                    <circle cx="314.2" cy="314.2" r="2.2"></circle>
+                    <circle cx="122.2" cy="314.2" r="2.2"></circle>
+                    <circle cx="338.2" cy="314.2" r="2.2"></circle>
+                    <circle cx="146.2" cy="314.2" r="2.2"></circle>
+                    <circle cx="170.2" cy="314.2" r="2.2"></circle>
+                    <circle cx="194.2" cy="338.2" r="2.2"></circle>
+                    <circle cx="2.2" cy="338.2" r="2.2"></circle>
+                    <circle cx="218.2" cy="338.2" r="2.2"></circle>
+                    <circle cx="26.2" cy="338.2" r="2.2"></circle>
+                    <circle cx="242.2" cy="338.2" r="2.2"></circle>
+                    <circle cx="50.2" cy="338.2" r="2.2"></circle>
+                    <circle cx="266.2" cy="338.2" r="2.2"></circle>
+                    <circle cx="74.2" cy="338.2" r="2.2"></circle>
+                    <circle cx="290.2" cy="338.2" r="2.2"></circle>
+                    <circle cx="98.2" cy="338.2" r="2.2"></circle>
+                    <circle cx="314.2" cy="338.2" r="2.2"></circle>
+                    <circle cx="122.2" cy="338.2" r="2.2"></circle>
+                    <circle cx="338.2" cy="338.2" r="2.2"></circle>
+                    <circle cx="146.2" cy="338.2" r="2.2"></circle>
+                    <circle cx="170.2" cy="338.2" r="2.2"></circle>
+                  </svg>
+                </figure>
+
+                <img
+                  src="images/about/01.jpg"
+                  alt="hotel-img"
+                  width="100%"
+                  class="rounded-4 d-block position-relative"
+                />
+                <div
+                  class="client-rate position-absolute bottom-0 start-0 z-index-1 mb-4 ms-5"
+                >
+                  <div
+                    class="bg-white d-flex d-inline-block rounded-3 position-relative p-3"
+                  >
+                    <img
+                      src="images/element/01.svg"
+                      class="position-absolute top-0 start-0 translate-middle"
+                      width="40px"
+                      alt=" avater"
+                    />
+
+                    <div class="me-4">
+                      <h6 class="fw-light">Client</h6>
+
+                      <ul class="d-flex list-unstyled mb-0">
+                        <li class="avatar">
+                          <img
+                            class="d-inline-block rounded-circle"
+                            src="images/avatar/03.jpg"
+                            width="40px"
+                            alt="avatar"
+                          />
+                        </li>
+                        <li class="avatar">
+                          <img
+                            class="d-inline-block rounded-circle"
+                            src="images/avatar/02.jpg"
+                            width="40px"
+                            alt="avatar"
+                          />
+                        </li>
+                        <li class="avatar">
+                          <img
+                            class="d-inline-block rounded-circle"
+                            src="images/avatar/03.jpg"
+                            width="40px"
+                            alt="avatar"
+                          />
+                        </li>
+                        <li class="avatar">
+                          <img
+                            class="d-inline-block rounded-circle"
+                            src="images/avatar/04.jpg"
+                            width="40px"
+                            alt="avatar"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+
+                    <!-- Rating -->
+                    <div>
+                      <h6 class="fw-light mb-3">Rating</h6>
+                      <h6 class="m-0">
+                        4.5<i class="fa-solid fa-star text-warning ms-1"></i>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h2 class="display-4 mb-2 text-dark text-capitalize fw-bolder">
+                The Best Holidays Start Here!
+              </h2>
+              <p class="mb-5">
+                Book your hotel with us and don't forget to grab an awesome
+                hotel deal to save massive on your stay.
+              </p>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div
+                    class="icon-1 bg-opacity-10 bg-success text-success rounded-circle"
+                  >
+                    <i class="fa-solid fa-utensils"></i>
+                  </div>
+                  <h5 class="mt-2 fw-bold text-dark">Quality Food</h5>
+                  <p class="mb-0">
+                    Departure defective arranging rapturous did. Conduct denied
+                    adding worthy little.
+                  </p>
+                </div>
+
+                <div class="col-md-6">
+                  <div
+                    class="icon-1 bg-opacity-10 bg-secandry text-danger rounded-circle"
+                  >
+                    <i class="fa-solid fa-stopwatch"></i>
+                  </div>
+                  <h5 class="mt-2 fw-bold text-dark">Quick Services</h5>
+                  <p class="mb-0">
+                    Supposing so be resolving breakfast am or perfectly.
+                  </p>
+                </div>
+
+                <div class="col-md-6">
+                  <div
+                    class="icon-1 bg-opacity-10 bg-warning text-warning rounded-circle"
+                  >
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <h5 class="mt-2 fw-bold text-dark">High Security</h5>
+                  <p class="mb-0">
+                    Arranging rapturous did believe him all had supported..
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <div
+                    class="icon-1 bg-opacity-10 bg-primary text-primary rounded-circle"
+                  >
+                    <i class="fa-solid fa-utensils"></i>
+                  </div>
+                  <h5 class="mt-2 fw-bold text-dark">24 Hours Alert</h5>
+                  <p class="mb-0">
+                    Rapturous did believe him all had supported.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- ////////////////////featured hotels////////////////////////////// -->
+      <section class="features py-5">
+        <div class="container">
+          <h2
+            class="display-3 mb-2 text-dark text-capitalize fw-bolder text-center"
+          >
+            Featured Hotels
+          </h2>
+          <div class="row gy-4">
+            <div class="col-md-3">
+              <div class="feature-inner">
+                <div class="card border-0">
+                  <div class="card-img scale-hover position-relative">
+                    <img
+                      src="images/category/hotel/01.jpg"
+                      class="card-img-top rounded-2"
+                      alt="featered hotel"
+                    />
+                    <div
+                      class="location position-absolute bottom-0 start-0 p-2"
+                    >
+                      <div
+                        class="location-content bg-dark rounded-pill text-white m-2"
+                      >
+                        <i class="fa-solid fa-location-dot text-white p-1"></i>
+                        <span class="text-white m-2 text-capitalize"
+                          >new york</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body my-3 p-0 text-start">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-decoration-none text-dark"
+                        >Baga Comfort</a
+                      >
+                    </h5>
+                    <div
+                      class="pricing d-flex justify-content-between align-items-center"
+                    >
+                      <h6 class="text-success">452$ / starts at</h6>
+                      <h6>
+                        <span>4.5</span
+                        ><i class="fa-solid fa-star text-warning ms-1"></i>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="feature-inner">
+                <div class="card border-0">
+                  <div class="card-img scale-hover position-relative">
+                    <img
+                      src="images/category/hotel/02.jpg"
+                      class="card-img-top rounded-2"
+                      alt="featered hotel"
+                    />
+                    <div
+                      class="location position-absolute bottom-0 start-0 p-2"
+                    >
+                      <div
+                        class="location-content bg-dark rounded-pill text-white m-2"
+                      >
+                        <i class="fa-solid fa-location-dot text-white p-1"></i>
+                        <span class="text-white m-2 text-capitalize"
+                          >california</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body my-3 p-0 text-start">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-decoration-none text-dark"
+                        >new apollo hotel</a
+                      >
+                    </h5>
+                    <div
+                      class="pricing d-flex justify-content-between align-items-center"
+                    >
+                      <h6 class="text-success">452$ / starts at</h6>
+                      <h6>
+                        <span>4.5</span
+                        ><i class="fa-solid fa-star text-warning ms-1"></i>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="feature-inner">
+                <div class="card border-0">
+                  <div class="card-img scale-hover position-relative">
+                    <img
+                      src="images/category/hotel/03.jpg"
+                      class="card-img-top rounded-2"
+                      alt="featered hotel"
+                    />
+                    <div
+                      class="location position-absolute bottom-0 start-0 p-2"
+                    >
+                      <div
+                        class="location-content bg-dark rounded-pill text-white m-2"
+                      >
+                        <i class="fa-solid fa-location-dot text-white p-1"></i>
+                        <span class="text-white m-2 text-capitalize"
+                          >los angelos</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body my-3 p-0 text-start">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-decoration-none text-dark"
+                        >new age hotel</a
+                      >
+                    </h5>
+                    <div
+                      class="pricing d-flex justify-content-between align-items-center"
+                    >
+                      <h6 class="text-success">452$ / starts at</h6>
+                      <h6>
+                        <span>4.5</span
+                        ><i class="fa-solid fa-star text-warning ms-1"></i>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="feature-inner">
+                <div class="card border-0">
+                  <div class="card-img scale-hover position-relative">
+                    <img
+                      src="images/category/hotel/04.jpg"
+                      class="card-img-top rounded-2"
+                      alt="featered hotel"
+                    />
+                    <div
+                      class="location position-absolute bottom-0 start-0 p-2"
+                    >
+                      <div
+                        class="location-content bg-dark rounded-pill text-white m-2"
+                      >
+                        <i class="fa-solid fa-location-dot text-white p-1"></i>
+                        <span class="text-white m-2 text-capitalize"
+                          >chicago</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body my-3 p-0 text-start">
+                    <h5 class="card-title fw-bold">
+                      <a href="#" class="text-decoration-none text-dark"
+                        >Helios Beach Resort</a
+                      >
+                    </h5>
+                    <div
+                      class="pricing d-flex justify-content-between align-items-center"
+                    >
+                      <h6 class="text-success">452$ / starts at</h6>
+                      <h6>
+                        <span>4.5</span
+                        ><i class="fa-solid fa-star text-warning ms-1"></i>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ///////////////client-img///////////////////////// -->
+      <section class="clint-imgs py-md-5">
+        <div class="container">
+          <div class="row g-5 justify-content-center align-items-center">
+            <div class="col-md-2 col-5">
+              <img
+                src="images/client/01.svg"
+                class="gray-scale d-block w-100"
+                alt="client logo images"
+              />
+            </div>
+            <div class="col-md-2 col-5 ">
+              <img
+                src="images/client/02.svg"
+                class="gray-scale d-block w-100"
+                alt="client logo images"
+              />
+            </div>
+            <div class="col-md-2 col-5 ">
+              <img
+                src="images/client/03.svg"
+                class="gray-scale d-block w-100"
+                alt="client logo images"
+              />
+            </div>
+            <div class="col-md-2 col-5 ">
+              <img
+                src="images/client/04.svg"
+                class="gray-scale d-block w-100"
+                alt="client logo images"
+              />
+            </div>
+            <div class="col-md-2 col-5 ">
+              <img
+                src="images/client/05.svg"
+                class="gray-scale d-block w-100"
+                alt="client logo images"
+              />
+            </div>
+            <div class="col-md-2 col-5 ">
+              <img
+                src="images/client/06.svg"
+                class="gray-scale d-block w-100"
+                alt="client logo images"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ////////////////////////slider2/////////////////////////// -->
+
+      <section class="slider2 mt-5">
+        <div class="container">
+          <div class="row p-5 gy-5">
+            <div class="col-md-11 mx-auto">
+              
+              <div
+                id="carouselExampleControls"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner overflow-hidden">
+                  <div class="carousel-item px-5 active">
+                    <div class="row gy-3 justify-content-between gy-5 align-items-center">
+                      <div class="col-md-6 col-10 position-relative">
+                        <div class="tes-inner w-100">
+                        <div
+                          class="star2 position-absolute top-0 start-0 translate-middle mt-4 rounded-3"
+                        >
+                          <img
+                            src="images/element/02.svg"
+                            alt="emoje haha"
+                            class="bg-danger rounded-3 p-2"
+                          />
+                        </div>
+                        <figure
+                          class="dashed-border2 d-none d-md-block position-absolute bottom-0 end-0 mb-n5 me-n1"
+                        >
+                          <svg
+                            width="326px"
+                            height="335px"
+                            viewBox="0 0 326 335"
+                          >
+                            <path
+                              class="fill-primary opacity-1"
+                              d="M7.3,0C3.3,0,0,3.3,0,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.6,3.3,11.3,0,7.3,0z
+                                    M59.2,0.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.5,4,63.2,0.7,59.2,0.7L59.2,0.7z	M111.1,1.5c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.4,4.7,115.1,1.5,111.1,1.5 C111.1,1.5,111.1,1.5,111.1,1.5L111.1,1.5z M163,2.2c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0 C170.3,5.5,167,2.2,163,2.2C163,2.2,163,2.2,163,2.2L163,2.2z M214.9,2.9c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3 c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.2,6.2,218.9,2.9,214.9,2.9C214.9,2.9,214.9,2.9,214.9,2.9L214.9,2.9z M266.8,3.7 c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.1,6.9,270.8,3.7,266.8,3.7C266.8,3.7,266.8,3.7,266.8,3.7L266.8,3.7z M318.7,4.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326,7.7,322.7,4.4,318.7,4.4C318.7,4.4,318.7,4.4,318.7,4.4L318.7,4.4z M7.3,52.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.6,55.9,11.4,52.7,7.3,52.7C7.3,52.7,7.3,52.7,7.3,52.7L7.3,52.7z M59.2,53.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.5,56.7,63.3,53.4,59.2,53.4C59.2,53.4,59.2,53.4,59.2,53.4L59.2,53.4z M111.1,54.1c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.4,57.4,115.2,54.1,111.1,54.1C111.1,54.1,111.1,54.1,111.1,54.1L111.1,54.1z M163,54.9c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.3,58.1,167.1,54.9,163,54.9C163,54.9,163,54.9,163,54.9L163,54.9zM214.9,55.6c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.2,58.9,219,55.6,214.9,55.6C214.9,55.6,214.9,55.6,214.9,55.6L214.9,55.6z M266.8,56.3c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.1,59.6,270.9,56.3,266.8,56.3C266.8,56.3,266.8,56.3,266.8,56.3L266.8,56.3z M318.7,57c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326,60.3,322.8,57.1,318.7,57C318.7,57,318.7,57,318.7,57L318.7,57zM7.3,105.3c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.7,108.6,11.4,105.3,7.3,105.3C7.3,105.3,7.3,105.3,7.3,105.3L7.3,105.3z M59.2,106c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.6,109.3,63.3,106.1,59.2,106C59.2,106,59.2,106,59.2,106L59.2,106z M111.1,106.8c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.5,110.1,115.2,106.8,111.1,106.8C111.1,106.8,111.1,106.8,111.1,106.8L111.1,106.8zM163,107.5c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.4,110.8,167.1,107.5,163,107.5C163,107.5,163,107.5,163,107.5L163,107.5z M214.9,108.2c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.3,111.5,219,108.3,214.9,108.2C214.9,108.2,214.9,108.3,214.9,108.2L214.9,108.2z M266.8,109c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.2,112.3,270.9,109,266.8,109C266.8,109,266.8,109,266.8,109L266.8,109zM318.7,109.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326.1,113,322.8,109.7,318.7,109.7C318.7,109.7,318.7,109.7,318.7,109.7L318.7,109.7z M7.3,158c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.6,161.3,11.3,158,7.3,158z M59.2,158.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.5,162,63.2,158.7,59.2,158.7C59.2,158.7,59.2,158.7,59.2,158.7L59.2,158.7z M111.1,159.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.4,162.7,115.1,159.5,111.1,159.4C111.1,159.4,111.1,159.4,111.1,159.4L111.1,159.4z M163,160.2c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.3,163.5,167,160.2,163,160.2C163,160.2,163,160.2,163,160.2L163,160.2z M214.9,160.9c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.2,164.2,218.9,160.9,214.9,160.9C214.9,160.9,214.9,160.9,214.9,160.9L214.9,160.9zM266.8,161.6c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.1,164.9,270.8,161.6,266.8,161.6C266.8,161.6,266.8,161.6,266.8,161.6L266.8,161.6z M318.7,162.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326,165.6,322.7,162.4,318.7,162.4C318.7,162.4,318.7,162.4,318.7,162.4L318.7,162.4z M7.3,210.6c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.6,213.9,11.4,210.7,7.3,210.6C7.3,210.6,7.3,210.6,7.3,210.6L7.3,210.6zM59.2,211.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.5,214.7,63.3,211.4,59.2,211.4C59.2,211.4,59.2,211.4,59.2,211.4L59.2,211.4z M111.1,212.1c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.4,215.4,115.2,212.1,111.1,212.1C111.1,212.1,111.1,212.1,111.1,212.1L111.1,212.1z M163,212.8c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.3,216.1,167.1,212.8,163,212.8C163,212.8,163,212.8,163,212.8L163,212.8z M214.9,213.6c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.2,216.8,219,213.6,214.9,213.6C214.9,213.6,214.9,213.6,214.9,213.6L214.9,213.6z M266.8,214.3c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.1,217.6,270.9,214.3,266.8,214.3C266.8,214.3,266.8,214.3,266.8,214.3L266.8,214.3z M318.7,215c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326,218.3,322.8,215,318.7,215C318.7,215,318.7,215,318.7,215L318.7,215z M7.3,263.3c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.7,266.6,11.4,263.3,7.3,263.3C7.3,263.3,7.3,263.3,7.3,263.3L7.3,263.3z M59.2,264c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.6,267.3,63.3,264,59.2,264C59.2,264,59.2,264,59.2,264L59.2,264z M111.1,264.8c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.5,268,115.2,264.8,111.1,264.8C111.1,264.8,111.1,264.8,111.1,264.8L111.1,264.8z M163,265.5c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.4,268.8,167.1,265.5,163,265.5C163,265.5,163,265.5,163,265.5L163,265.5z M214.9,266.2c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.3,269.5,219,266.2,214.9,266.2C214.9,266.2,214.9,266.2,214.9,266.2L214.9,266.2z M266.8,267c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.2,270.2,270.9,267,266.8,267C266.8,267,266.8,267,266.8,267L266.8,267z M318.7,267.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326.1,271,322.8,267.7,318.7,267.7C318.7,267.7,318.7,267.7,318.7,267.7L318.7,267.7z M7.4,316c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.7,319.2,11.4,316,7.4,316C7.3,316,7.3,316,7.4,316L7.4,316z M59.3,316.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.6,320,63.3,316.7,59.3,316.7C59.2,316.7,59.2,316.7,59.3,316.7L59.3,316.7z M111.2,317.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.5,320.7,115.2,317.4,111.2,317.4C111.1,317.4,111.1,317.4,111.2,317.4L111.2,317.4z M163.1,318.2c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.4,321.4,167.1,318.2,163.1,318.2C163,318.2,163,318.2,163.1,318.2L163.1,318.2z M215,318.9c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.3,322.2,219,318.9,215,318.9C214.9,318.9,214.9,318.9,215,318.9L215,318.9z M266.9,319.6c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.2,322.9,270.9,319.6,266.9,319.6C266.8,319.6,266.8,319.6,266.9,319.6L266.9,319.6z M318.8,320.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326.1,323.6,322.8,320.4,318.8,320.4C318.7,320.4,318.7,320.4,318.8,320.4L318.8,320.4z"
+                            ></path>
+                          </svg>
+                        </figure>
+                        <img
+                          src="images/team/01.jpg"
+                          alt="person1"
+                          class="position-relative w-100 rounded-3 d-block"
+                        />
+                      </div>
+                      </div>
+                      <div class="col-md-6  col-10  ">
+                        <div class="tes-inner mx-md-5 w-100 ">
+                          <span class="text-primary display-3"
+                            ><i class="fa-solid fa-quote-right"></i
+                          ></span>
+                          <h5 class="text-dark my-2 fw-light">
+                            Moonlight newspaper up its enjoyment agreeable
+                            depending. Timed voice share led him to widen noisy
+                            young. At weddings believed in laughing
+                          </h5>
+                          <ul class="list-unstyled list-inline mb-3">
+                            <li class="list-inline-item me-0">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </li>
+                          </ul>
+                          <h6 class="fw-bold">Billy Vasquez</h6>
+
+                          <span class="mt-3">Ceo of Apple</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item px-5 ">
+                    <div class="row gy-3 justify-content-between gy-5 align-items-center">
+                      <div class="col-md-6 position-relative">
+                        <div class="tes-inner w-100">
+                        <div
+                          class="star2 position-absolute top-0 start-0 translate-middle mt-4 rounded-3"
+                        >
+                          <img
+                            src="images/element/02.svg"
+                            alt="emoje haha"
+                            class="bg-danger rounded-3 p-2"
+                          />
+                        </div>
+                        <figure
+                          class="dashed-border2 d-none d-md-block position-absolute bottom-0 end-0 mb-n5 me-n1"
+                        >
+                          <svg
+                            width="326px"
+                            height="335px"
+                            viewBox="0 0 326 335"
+                          >
+                            <path
+                              class="fill-primary opacity-1"
+                              d="M7.3,0C3.3,0,0,3.3,0,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.6,3.3,11.3,0,7.3,0z
+                                    M59.2,0.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.5,4,63.2,0.7,59.2,0.7L59.2,0.7z	M111.1,1.5c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.4,4.7,115.1,1.5,111.1,1.5 C111.1,1.5,111.1,1.5,111.1,1.5L111.1,1.5z M163,2.2c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0 C170.3,5.5,167,2.2,163,2.2C163,2.2,163,2.2,163,2.2L163,2.2z M214.9,2.9c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3 c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.2,6.2,218.9,2.9,214.9,2.9C214.9,2.9,214.9,2.9,214.9,2.9L214.9,2.9z M266.8,3.7 c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.1,6.9,270.8,3.7,266.8,3.7C266.8,3.7,266.8,3.7,266.8,3.7L266.8,3.7z M318.7,4.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326,7.7,322.7,4.4,318.7,4.4C318.7,4.4,318.7,4.4,318.7,4.4L318.7,4.4z M7.3,52.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.6,55.9,11.4,52.7,7.3,52.7C7.3,52.7,7.3,52.7,7.3,52.7L7.3,52.7z M59.2,53.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.5,56.7,63.3,53.4,59.2,53.4C59.2,53.4,59.2,53.4,59.2,53.4L59.2,53.4z M111.1,54.1c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.4,57.4,115.2,54.1,111.1,54.1C111.1,54.1,111.1,54.1,111.1,54.1L111.1,54.1z M163,54.9c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.3,58.1,167.1,54.9,163,54.9C163,54.9,163,54.9,163,54.9L163,54.9zM214.9,55.6c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.2,58.9,219,55.6,214.9,55.6C214.9,55.6,214.9,55.6,214.9,55.6L214.9,55.6z M266.8,56.3c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.1,59.6,270.9,56.3,266.8,56.3C266.8,56.3,266.8,56.3,266.8,56.3L266.8,56.3z M318.7,57c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326,60.3,322.8,57.1,318.7,57C318.7,57,318.7,57,318.7,57L318.7,57zM7.3,105.3c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.7,108.6,11.4,105.3,7.3,105.3C7.3,105.3,7.3,105.3,7.3,105.3L7.3,105.3z M59.2,106c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.6,109.3,63.3,106.1,59.2,106C59.2,106,59.2,106,59.2,106L59.2,106z M111.1,106.8c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.5,110.1,115.2,106.8,111.1,106.8C111.1,106.8,111.1,106.8,111.1,106.8L111.1,106.8zM163,107.5c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.4,110.8,167.1,107.5,163,107.5C163,107.5,163,107.5,163,107.5L163,107.5z M214.9,108.2c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.3,111.5,219,108.3,214.9,108.2C214.9,108.2,214.9,108.3,214.9,108.2L214.9,108.2z M266.8,109c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.2,112.3,270.9,109,266.8,109C266.8,109,266.8,109,266.8,109L266.8,109zM318.7,109.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326.1,113,322.8,109.7,318.7,109.7C318.7,109.7,318.7,109.7,318.7,109.7L318.7,109.7z M7.3,158c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.6,161.3,11.3,158,7.3,158z M59.2,158.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.5,162,63.2,158.7,59.2,158.7C59.2,158.7,59.2,158.7,59.2,158.7L59.2,158.7z M111.1,159.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.4,162.7,115.1,159.5,111.1,159.4C111.1,159.4,111.1,159.4,111.1,159.4L111.1,159.4z M163,160.2c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.3,163.5,167,160.2,163,160.2C163,160.2,163,160.2,163,160.2L163,160.2z M214.9,160.9c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.2,164.2,218.9,160.9,214.9,160.9C214.9,160.9,214.9,160.9,214.9,160.9L214.9,160.9zM266.8,161.6c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.1,164.9,270.8,161.6,266.8,161.6C266.8,161.6,266.8,161.6,266.8,161.6L266.8,161.6z M318.7,162.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326,165.6,322.7,162.4,318.7,162.4C318.7,162.4,318.7,162.4,318.7,162.4L318.7,162.4z M7.3,210.6c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.6,213.9,11.4,210.7,7.3,210.6C7.3,210.6,7.3,210.6,7.3,210.6L7.3,210.6zM59.2,211.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.5,214.7,63.3,211.4,59.2,211.4C59.2,211.4,59.2,211.4,59.2,211.4L59.2,211.4z M111.1,212.1c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.4,215.4,115.2,212.1,111.1,212.1C111.1,212.1,111.1,212.1,111.1,212.1L111.1,212.1z M163,212.8c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.3,216.1,167.1,212.8,163,212.8C163,212.8,163,212.8,163,212.8L163,212.8z M214.9,213.6c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.2,216.8,219,213.6,214.9,213.6C214.9,213.6,214.9,213.6,214.9,213.6L214.9,213.6z M266.8,214.3c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.1,217.6,270.9,214.3,266.8,214.3C266.8,214.3,266.8,214.3,266.8,214.3L266.8,214.3z M318.7,215c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326,218.3,322.8,215,318.7,215C318.7,215,318.7,215,318.7,215L318.7,215z M7.3,263.3c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.7,266.6,11.4,263.3,7.3,263.3C7.3,263.3,7.3,263.3,7.3,263.3L7.3,263.3z M59.2,264c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.6,267.3,63.3,264,59.2,264C59.2,264,59.2,264,59.2,264L59.2,264z M111.1,264.8c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.5,268,115.2,264.8,111.1,264.8C111.1,264.8,111.1,264.8,111.1,264.8L111.1,264.8z M163,265.5c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.4,268.8,167.1,265.5,163,265.5C163,265.5,163,265.5,163,265.5L163,265.5z M214.9,266.2c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.3,269.5,219,266.2,214.9,266.2C214.9,266.2,214.9,266.2,214.9,266.2L214.9,266.2z M266.8,267c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.2,270.2,270.9,267,266.8,267C266.8,267,266.8,267,266.8,267L266.8,267z M318.7,267.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326.1,271,322.8,267.7,318.7,267.7C318.7,267.7,318.7,267.7,318.7,267.7L318.7,267.7z M7.4,316c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.7,319.2,11.4,316,7.4,316C7.3,316,7.3,316,7.4,316L7.4,316z M59.3,316.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.6,320,63.3,316.7,59.3,316.7C59.2,316.7,59.2,316.7,59.3,316.7L59.3,316.7z M111.2,317.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.5,320.7,115.2,317.4,111.2,317.4C111.1,317.4,111.1,317.4,111.2,317.4L111.2,317.4z M163.1,318.2c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.4,321.4,167.1,318.2,163.1,318.2C163,318.2,163,318.2,163.1,318.2L163.1,318.2z M215,318.9c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.3,322.2,219,318.9,215,318.9C214.9,318.9,214.9,318.9,215,318.9L215,318.9z M266.9,319.6c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.2,322.9,270.9,319.6,266.9,319.6C266.8,319.6,266.8,319.6,266.9,319.6L266.9,319.6z M318.8,320.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326.1,323.6,322.8,320.4,318.8,320.4C318.7,320.4,318.7,320.4,318.8,320.4L318.8,320.4z"
+                            ></path>
+                          </svg>
+                        </figure>
+                        <img
+                          src="images/team/01.jpg"
+                          alt="person1"
+                          class="position-relative w-100 rounded-3 d-block"
+                        />
+                      </div>
+                      </div>
+                      <div class="col-md-6 col-10  ">
+                        <div class="tes-inner mx-md-5 w-100 ">
+                          <span class="text-primary display-3"
+                            ><i class="fa-solid fa-quote-right"></i
+                          ></span>
+                          <h5 class="text-dark my-2 fw-light">
+                            Moonlight newspaper up its enjoyment agreeable
+                            depending. Timed voice share led him to widen noisy
+                            young. At weddings believed in laughing
+                          </h5>
+                          <ul class="list-unstyled list-inline mb-3">
+                            <li class="list-inline-item me-0">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </li>
+                          </ul>
+                          <h6 class="fw-bold">Billy Vasquez</h6>
+
+                          <span class="mt-3">Ceo of Apple</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item px-5 ">
+                    <div class="row gy-3 justify-content-between gy-5 align-items-center">
+                      <div class="col-md-6 col-10 position-relative">
+                        <div class="tes-inner w-100">
+                        <div
+                          class="star2 position-absolute top-0 start-0 translate-middle mt-4 rounded-3"
+                        >
+                          <img
+                            src="images/element/02.svg"
+                            alt="emoje haha"
+                            class="bg-danger rounded-3 p-2"
+                          />
+                        </div>
+                        <figure
+                          class="dashed-border2 d-none d-md-block position-absolute bottom-0 end-0 mb-n5 me-n1"
+                        >
+                          <svg
+                            width="326px"
+                            height="335px"
+                            viewBox="0 0 326 335"
+                          >
+                            <path
+                              class="fill-primary opacity-1"
+                              d="M7.3,0C3.3,0,0,3.3,0,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.6,3.3,11.3,0,7.3,0z
+                                    M59.2,0.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.5,4,63.2,0.7,59.2,0.7L59.2,0.7z	M111.1,1.5c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.4,4.7,115.1,1.5,111.1,1.5 C111.1,1.5,111.1,1.5,111.1,1.5L111.1,1.5z M163,2.2c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0 C170.3,5.5,167,2.2,163,2.2C163,2.2,163,2.2,163,2.2L163,2.2z M214.9,2.9c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3 c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.2,6.2,218.9,2.9,214.9,2.9C214.9,2.9,214.9,2.9,214.9,2.9L214.9,2.9z M266.8,3.7 c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.1,6.9,270.8,3.7,266.8,3.7C266.8,3.7,266.8,3.7,266.8,3.7L266.8,3.7z M318.7,4.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326,7.7,322.7,4.4,318.7,4.4C318.7,4.4,318.7,4.4,318.7,4.4L318.7,4.4z M7.3,52.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.6,55.9,11.4,52.7,7.3,52.7C7.3,52.7,7.3,52.7,7.3,52.7L7.3,52.7z M59.2,53.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.5,56.7,63.3,53.4,59.2,53.4C59.2,53.4,59.2,53.4,59.2,53.4L59.2,53.4z M111.1,54.1c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.4,57.4,115.2,54.1,111.1,54.1C111.1,54.1,111.1,54.1,111.1,54.1L111.1,54.1z M163,54.9c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.3,58.1,167.1,54.9,163,54.9C163,54.9,163,54.9,163,54.9L163,54.9zM214.9,55.6c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.2,58.9,219,55.6,214.9,55.6C214.9,55.6,214.9,55.6,214.9,55.6L214.9,55.6z M266.8,56.3c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.1,59.6,270.9,56.3,266.8,56.3C266.8,56.3,266.8,56.3,266.8,56.3L266.8,56.3z M318.7,57c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326,60.3,322.8,57.1,318.7,57C318.7,57,318.7,57,318.7,57L318.7,57zM7.3,105.3c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.7,108.6,11.4,105.3,7.3,105.3C7.3,105.3,7.3,105.3,7.3,105.3L7.3,105.3z M59.2,106c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.6,109.3,63.3,106.1,59.2,106C59.2,106,59.2,106,59.2,106L59.2,106z M111.1,106.8c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.5,110.1,115.2,106.8,111.1,106.8C111.1,106.8,111.1,106.8,111.1,106.8L111.1,106.8zM163,107.5c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.4,110.8,167.1,107.5,163,107.5C163,107.5,163,107.5,163,107.5L163,107.5z M214.9,108.2c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.3,111.5,219,108.3,214.9,108.2C214.9,108.2,214.9,108.3,214.9,108.2L214.9,108.2z M266.8,109c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.2,112.3,270.9,109,266.8,109C266.8,109,266.8,109,266.8,109L266.8,109zM318.7,109.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326.1,113,322.8,109.7,318.7,109.7C318.7,109.7,318.7,109.7,318.7,109.7L318.7,109.7z M7.3,158c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.6,161.3,11.3,158,7.3,158z M59.2,158.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.5,162,63.2,158.7,59.2,158.7C59.2,158.7,59.2,158.7,59.2,158.7L59.2,158.7z M111.1,159.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.4,162.7,115.1,159.5,111.1,159.4C111.1,159.4,111.1,159.4,111.1,159.4L111.1,159.4z M163,160.2c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.3,163.5,167,160.2,163,160.2C163,160.2,163,160.2,163,160.2L163,160.2z M214.9,160.9c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.2,164.2,218.9,160.9,214.9,160.9C214.9,160.9,214.9,160.9,214.9,160.9L214.9,160.9zM266.8,161.6c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.1,164.9,270.8,161.6,266.8,161.6C266.8,161.6,266.8,161.6,266.8,161.6L266.8,161.6z M318.7,162.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326,165.6,322.7,162.4,318.7,162.4C318.7,162.4,318.7,162.4,318.7,162.4L318.7,162.4z M7.3,210.6c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.6,213.9,11.4,210.7,7.3,210.6C7.3,210.6,7.3,210.6,7.3,210.6L7.3,210.6zM59.2,211.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.5,214.7,63.3,211.4,59.2,211.4C59.2,211.4,59.2,211.4,59.2,211.4L59.2,211.4z M111.1,212.1c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.4,215.4,115.2,212.1,111.1,212.1C111.1,212.1,111.1,212.1,111.1,212.1L111.1,212.1z M163,212.8c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.3,216.1,167.1,212.8,163,212.8C163,212.8,163,212.8,163,212.8L163,212.8z M214.9,213.6c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.2,216.8,219,213.6,214.9,213.6C214.9,213.6,214.9,213.6,214.9,213.6L214.9,213.6z M266.8,214.3c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.1,217.6,270.9,214.3,266.8,214.3C266.8,214.3,266.8,214.3,266.8,214.3L266.8,214.3z M318.7,215c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326,218.3,322.8,215,318.7,215C318.7,215,318.7,215,318.7,215L318.7,215z M7.3,263.3c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.7,266.6,11.4,263.3,7.3,263.3C7.3,263.3,7.3,263.3,7.3,263.3L7.3,263.3z M59.2,264c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.6,267.3,63.3,264,59.2,264C59.2,264,59.2,264,59.2,264L59.2,264z M111.1,264.8c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.5,268,115.2,264.8,111.1,264.8C111.1,264.8,111.1,264.8,111.1,264.8L111.1,264.8z M163,265.5c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.4,268.8,167.1,265.5,163,265.5C163,265.5,163,265.5,163,265.5L163,265.5z M214.9,266.2c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.3,269.5,219,266.2,214.9,266.2C214.9,266.2,214.9,266.2,214.9,266.2L214.9,266.2z M266.8,267c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.2,270.2,270.9,267,266.8,267C266.8,267,266.8,267,266.8,267L266.8,267z M318.7,267.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326.1,271,322.8,267.7,318.7,267.7C318.7,267.7,318.7,267.7,318.7,267.7L318.7,267.7z M7.4,316c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C14.7,319.2,11.4,316,7.4,316C7.3,316,7.3,316,7.4,316L7.4,316z M59.3,316.7c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C66.6,320,63.3,316.7,59.3,316.7C59.2,316.7,59.2,316.7,59.3,316.7L59.3,316.7z M111.2,317.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C118.5,320.7,115.2,317.4,111.2,317.4C111.1,317.4,111.1,317.4,111.2,317.4L111.2,317.4z M163.1,318.2c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C170.4,321.4,167.1,318.2,163.1,318.2C163,318.2,163,318.2,163.1,318.2L163.1,318.2z M215,318.9c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C222.3,322.2,219,318.9,215,318.9C214.9,318.9,214.9,318.9,215,318.9L215,318.9z M266.9,319.6c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C274.2,322.9,270.9,319.6,266.9,319.6C266.8,319.6,266.8,319.6,266.9,319.6L266.9,319.6z M318.8,320.4c-4,0-7.3,3.3-7.3,7.3c0,4,3.3,7.3,7.3,7.3c4,0,7.3-3.3,7.3-7.3c0,0,0,0,0,0C326.1,323.6,322.8,320.4,318.8,320.4C318.7,320.4,318.7,320.4,318.8,320.4L318.8,320.4z"
+                            ></path>
+                          </svg>
+                        </figure>
+                        <img
+                          src="images/team/01.jpg"
+                          alt="person1"
+                          class="position-relative w-100 rounded-3 d-block"
+                        />
+                      </div>
+                      </div>
+                      <div class="col-md-6 col-10  ">
+                        <div class="tes-inner mx-md-5 w-100 ">
+                          <span class="text-primary display-3"
+                            ><i class="fa-solid fa-quote-right"></i
+                          ></span>
+                          <h5 class="text-dark my-2 fw-light">
+                            Moonlight newspaper up its enjoyment agreeable
+                            depending. Timed voice share led him to widen noisy
+                            young. At weddings believed in laughing
+                          </h5>
+                          <ul class="list-unstyled list-inline mb-3">
+                            <li class="list-inline-item me-0">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                              <i class="fa-solid fa-star text-warning"></i>
+                            </li>
+                          </ul>
+                          <h6 class="fw-bold">Billy Vasquez</h6>
+
+                          <span class="mt-3">Ceo of Apple</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- /////////////////gallery////////////////// -->
+      <section class="gallery mt-5">
+        <div class="container">
+          <h2
+            class="display-3 mb-2 text-dark text-capitalize fw-bolder text-center"
+          >
+            Explore Nearby
+          </h2>
+          <div class="row g-4 d-sm-flex justify-content-between">
+            <div class="col-md-2  col-6">
+              <div class="gall-content border-0 card p-2 text-center">
+                <img
+                  src="images/category/hotel/nearby/01.jpg"
+                  alt="nearby hotel "
+                  class="rounded-circle"
+                />
+                <div class="content card-body">
+                  <h4 class="card-title fw-bold my-2">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >Chicago</a
+                    >
+                  </h4>
+                  <span> 13 min drive</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2  col-6">
+              <div class="gall-content border-0 card p-2 text-center">
+                <img
+                  src="images/category/hotel/nearby/02.jpg"
+                  alt="nearby hotel "
+                  class="rounded-circle"
+                />
+                <div class="content card-body">
+                  <h4 class="card-title fw-bold my-2">
+                    <a href="#" class="text-decoration-none text-dark">Oslo</a>
+                  </h4>
+                  <span> 1 hour 13 min drive</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-6 ">
+              <div class="gall-content border-0 card p-2 text-center">
+                <img
+                  src="images/category/hotel/nearby/03.jpg"
+                  alt="nearby hotel "
+                  class="rounded-circle"
+                />
+                <div class="content card-body">
+                  <h4 class="card-title fw-bold my-2">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >New Keagan</a
+                    >
+                  </h4>
+                  <span> 35 min drive</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-6 ">
+              <div class="gall-content border-0 card p-2 text-center">
+                <img
+                  src="images/category/hotel/nearby/04.jpg"
+                  alt="nearby hotel "
+                  class="rounded-circle"
+                />
+                <div class="content card-body">
+                  <h4 class="card-title fw-bold my-2">
+                    <a href="#" class="text-decoration-none text-dark">mami</a>
+                  </h4>
+                  <span>40 min drive</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-6 ">
+              <div class="gall-content border-0 card p-2 text-center">
+                <img
+                  src="images/category/hotel/nearby/05.jpg"
+                  alt="nearby hotel "
+                  class="rounded-circle"
+                />
+                <div class="content card-body">
+                  <h4 class="card-title fw-bold my-2">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >Las Vegas</a
+                    >
+                  </h4>
+                  <span> 3-hour drive</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-6">
+              <div class="gall-content border-0 card p-2 text-center">
+                <img
+                  src="images/category/hotel/nearby/06.jpg"
+                  alt="nearby hotel "
+                  class="rounded-circle"
+                />
+                <div class="content card-body">
+                  <h4 class="card-title fw-bold my-2">
+                    <a href="#" class="text-decoration-none text-dark">Texas</a>
+                  </h4>
+                  <span> 55 min drive</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-6">
+              <div class="gall-content border-0 card p-2 text-center">
+                <img
+                  src="images/category/hotel/nearby/07.jpg"
+                  alt="nearby hotel "
+                  class="rounded-circle"
+                />
+                <div class="content card-body">
+                  <h4 class="card-title fw-bold my-2">
+                    <a href="#" class="text-decoration-none text-dark">Rio</a>
+                  </h4>
+                  <span> 20 min drive</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-6">
+              <div class="gall-content border-0 card p-2 text-center">
+                <img
+                  src="images/category/hotel/nearby/08.jpg"
+                  alt="nearby hotel "
+                  class="rounded-circle"
+                />
+                <div class="content card-body">
+                  <h4 class="card-title fw-bold my-2">
+                    <a href="#" class="text-decoration-none text-dark">mami</a>
+                  </h4>
+                  <span>40 min drive</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-6">
+              <div class="gall-content border-0 card p-2 text-center">
+                <img
+                  src="images/category/hotel/nearby/09.jpg"
+                  alt="nearby hotel "
+                  class="rounded-circle"
+                />
+                <div class="content card-body">
+                  <h4 class="card-title fw-bold my-2">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >North Justen
+                    </a>
+                  </h4>
+                  <span>2-hour drive</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-6">
+              <div class="gall-content border-0 card p-2 text-center">
+                <img
+                  src="images/category/hotel/nearby/06.jpg"
+                  alt="nearby hotel "
+                  class="rounded-circle"
+                />
+                <div class="content card-body">
+                  <h4 class="card-title fw-bold my-2">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >New York</a
+                    >
+                  </h4>
+                  <span> 1-hour drive</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-6">
+              <div class="gall-content border-0 card p-2 text-center">
+                <img
+                  src="images/category/hotel/nearby/05.jpg"
+                  alt="nearby hotel "
+                  class="rounded-circle"
+                />
+                <div class="content card-body">
+                  <h4 class="card-title fw-bold my-2">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >Sanjosh
+                    </a>
+                  </h4>
+                  <span>55 min drive</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-6">
+              <div class="gall-content border-0 card p-2 text-center">
+                <img
+                  src="images/category/hotel/nearby/04.jpg"
+                  alt="nearby hotel "
+                  class="rounded-circle"
+                />
+                <div class="content card-body">
+                  <h4 class="card-title fw-bold my-2">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >San Francisco
+                    </a>
+                  </h4>
+                  <span>13 min drive</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ////////////////////downlood/////////////////////// -->
+      <section class="downlood mt-5">
+        <div class="container">
+          <div class="empty mb-5"></div>
+          <div class="row gy-4 pt-5 align-items-center justify-content-between">
+            <div class="col-md-6">
+              <div class="mx-2">
+                <div class="row bg-white rounded-3">
+                  <div class="col-md-2 ">
+                    <div
+                      class="help d-flex align-items-center justify-content-center h-100"
+                    >
+                      <h3 class="fw-boler">
+                        <i class="fa-solid fa-hand-holding-heart"></i>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="help-cont p-2">
+                      <h4 class="text-dark fw-bold my-3">24x7 Help</h4>
+                      <p>
+                        If we fall short of your expectation in any way, let us
+                        know
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mx-2">
+                <div class="row bg-white rounded-3">
+                  <div class="col-md-2">
+                    <div
+                      class="help d-flex align-items-center justify-content-center h-100"
+                    >
+                      <h3>
+                        <i class="fa-solid fa-hand-holding-usd"></i>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="help-cont p-2">
+                      <h4 class="text-dark fw-bold my-3">24x7 Help</h4>
+                      <p>
+                        If we fall short of your expectation in any way, let us
+                        know
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4 class="my-5 text-bold text-capitalize h2">downlood app</h4>
+          <div class="d-flex py-5 column-gap-3 align-items-center">
+            <a href="#">
+              <img src="images/element/google-play.svg" alt="" class="w-100" />
+              
+            </a>
+
+            <a href="#"> <img src="images/element/app-store.svg" class="w-100" alt="" /> </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- //////////////////////footer//////////////////////////////// -->
+
+      <footer class="footer bg-dark">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-4 text-start">
+              <img
+                src="images/logo-light.svg"
+                alt="logo booking"
+                width="200px"
+              />
+              <p class="text-secondary my-3">
+                Departure defective arranging rapturous did believe him all had
+                supported.
+              </p>
+              <div class="phone my-2">
+                <a href="#" class="text-decoration-none text-secandry">
+                  <i class="bi bi-telephone me-2"></i>
+                  <span class="text-secondary my-2">+1234 568 963</span>
+                </a>
+              </div>
+              <div class="email my-2 text-secondary">
+                <a href="#" class="text-decoration-none text-secandry">
+                  <i></i>
+                  <span class="text-secondary">ggg@gmail.com</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <h4 class="text-white fw-bold text-capitalize">page</h4>
+              <ul class="list-unstyled text-start fs-6">
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    >About us</a
+                  >
+                </li>
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    >Contact us</a
+                  >
+                </li>
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    >News and Blog</a
+                  >
+                </li>
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    >meet a team</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-2">
+              <h4 class="text-white fw-bold text-capitalize">link</h4>
+              <ul class="list-unstyled text-start fs-6">
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    >Sign up</a
+                  >
+                  <!-- 
+
+
+                                                    
+                                                    
+                                                    Cookie
+                                                    Support -->
+                </li>
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    >Sign in</a
+                  >
+                </li>
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    >Terms</a
+                  >
+                </li>
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    >Cookie
+                  </a>
+                </li>
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    >Support</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-2">
+              <h4 class="text-white fw-bold text-capitalize">Global Site</h4>
+              <ul class="list-unstyled text-start fs-6">
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    >India</a
+                  >
+                </li>
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    >California</a
+                  >
+                </li>
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    >Indonesia</a
+                  >
+                </li>
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    >Canada</a
+                  >
+                </li>
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    >Malaysia</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-2">
+              <h4 class="text-white fw-bold text-capitalize">Booking</h4>
+              <ul class="list-unstyled text-start fs-6">
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                  >
+                    <i class="fa-solid fa-hotel me-2"></i>Hotel</a
+                  >
+                </li>
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    ><i class="fa-solid fa-plane me-2"></i>Flight</a
+                  >
+                </li>
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    ><i class="fa-solid fa-globe-americas me-2"></i>Tour</a
+                  >
+                </li>
+                <li class="my-2">
+                  <a
+                    class="text-decoration-none text-secondary fs-6 text-capitalize"
+                    href=""
+                    ><i class="fa-solid fa-car me-2"></i>cabs</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="top-links my-3">
+            <h3 class="my-5 text-bold text-white fw-bolder text-capitalize h3">top links</h3>
+            <div class="links d-flex flex-wrap column-gap-4">
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">flight</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">tour</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">cab</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">hotels</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">about us</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">contact</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">blog</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">services</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">flight</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">Services</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">Policy</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">Testimonials</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">Newsletters</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">Podcasts</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">Protests</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">NewsCyber</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">Education Sports</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">Tech and Auto</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">Opinion</a>
+                <a href="" class="text-decoration-none text-secondary fs-5  text-capitalize">Share Market</a>
+                
+
+
+              </div>
+          </div>
+
+
+          <div class="social d-flex justify-content-between ">
+            <div class="pay">
+                <h3 class="my-3 text-bold text-white fw-bolder text-capitalize h3"> payment &  Security</h3>
+                <div class="cars-l d-flex justify-content-between align-items-center column-gap-1">
+                   <a href=""><img src="images/element/paypal.svg" class="rounded-2"  alt=""></a> 
+                   <a href=""><img src="images/element/mastercard.svg" class="rounded-2"  alt=""></a> 
+
+                   <a href=""><img src="images/element/expresscard.svg" class="rounded-2" alt=""></a> 
+
+                   <a href=""><img src="images/element/visa.svg"class="rounded-2"  alt=""></a> 
+
+                </div>
+
+            </div>
+            <div class="social-link">
+                <h3 class="my-3 text-bold text-white fw-bolder text-capitalize h3"> follow us on</h3>
+                <div class="cars-l d-flex justify-content-between align-items-center column-gap-1">
+                   <a href="" class="text-white bg-primary  rounded-2 p-2"><i class="fab fa-fw fa-facebook-f"></i></a> 
+                   <a href="" class="text-white bg-primary rounded-2 p-2 "><i class="fab fa-fw fa-instagram"></i></a> 
+
+                   <a href="" class="text-white bg-primary rounded-2 p-2 "><i class="fab fa-fw fa-twitter"></i></a> 
+
+                   <a href="" class="text-white bg-primary rounded-2 p-2 "><i class="fab fa-fw fa-linkedin-in"></i></a> 
+
+                </div>
+
+            </div>
+            
+          </div>
+
+          <hr class="text-secondary my-2">
+
+          <div class="copy-write d-flex justify-content-between ">
+            <p class="my-2 text-bold text-white fw-light text-capitalize ">Copyrights ©2023 Booking. Build by <a href="" class="text-decoration-none text-white">Webestica</a> .</p>
+            <div class="coy-links column-gap-3 d-flex align-items-center justify-content-around">
+                <a href="" class="text-decoration-none text-white fs-5  text-capitalize">Privacy policy
+ 
+                    
+                     
+                    </a>
+                <a href=""class="text-decoration-none text-white fs-5  text-capitalize">Terms and conditions</a>
+                <a href="" class="text-decoration-none text-white fs-5  text-capitalize">Refund policy</a>
+            </div>
+
+          </div>
+
+        </div>
+      </footer>
+
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
